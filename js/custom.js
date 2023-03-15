@@ -647,13 +647,13 @@ $('.blog2').owlCarousel({
 ==============================================================*/
 
 $('.home-slider3').owlCarousel({
-    loop: false,
+    loop: true,
     items: 1,
     margin: 0,
     nav: true,
     navText : ['<i class="fa fa-angle-double-left"></i>','<i class="fa fa-angle-double-right"></i>'],
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 5000,
     autoplayHoverPause: true,
     fade: true,
     transitionStyle: "fade",
