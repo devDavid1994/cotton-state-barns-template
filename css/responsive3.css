@@ -571,7 +571,7 @@ idap-pro css
     }
     /* full banner css */
     .full-banner .banner-main .full-banner-conten {
-        width: 65%;
+        width: 90%;
     }
     .full-banner .banner-main .full-banner-conten span{
         font-size: 14px;
@@ -672,6 +672,10 @@ idap-pro css
     }
     .pro-page .pro-image .pro-info .pro-btn a {
         padding: 8px 15px;
+    }
+    .brochure-banner-content {
+        padding-left: 23%;
+        width: 100% !important;
     }
 }
 /*=====================================
@@ -867,6 +871,10 @@ ipad css
     }
     .pro-page .pro-image{
         padding-right: 0px;
+    }
+    .brochure-banner-content {
+        padding-left: 23%;
+        width: 100% !important;
     }
 }
 /*=====================================
@@ -1269,6 +1277,10 @@ iphone css
     .pro-page-content .pro-page-tab .tab-content .tab-pane .tab-1content ul.tab-description li{
         font-size: 13px;
     }
+    .brochure-banner-content {
+        padding-left: 23% !important;
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 479px) {
@@ -1293,5 +1305,9 @@ iphone css
     }
     .home3-blog .blog-start .blog-content .more-blog{
         margin-top: 7px;
+    }
+    .brochure-banner-content {
+        text-align: center !important;
+        width: 100% !important;
     }
 }
