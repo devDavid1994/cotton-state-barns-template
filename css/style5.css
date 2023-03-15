@@ -238,6 +238,24 @@ body.hidden {
 .btn-style3:hover{
     color: #fff;
 }
+
+.btn-extra-style {
+    background-color: #0f140f;
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    padding: 7px 24px;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 209px;
+}
+
+.btn-extra-style:hover::before{
+    background-color: #76776e;
+    width: 100%;
+    border-radius: 4px;
+}
+
 /* mm-fullscreen-bg css */
 .mm-fullscreen-bg {
     position: fixed;
@@ -2071,6 +2089,11 @@ a.responsive-collapse span{
     text-align: left;
 }
 /* full banner css */
+.brochure-banner-content {
+    padding-left: 10%;
+    text-align: left !important;
+    width: 70% !important;
+}
 .full-banner .banner-main {
     position: relative;
 }
@@ -3482,4 +3505,14 @@ a.scroll:hover span{
 }
 .pro-page-content .pro-page-tab .tab-content .tab-pane .review-form span i {
     color: #ddd;
+}
+
+#collapse-top-home {
+    cursor: pointer;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+#collapse-top-home li{
+    margin-top: 5px;
 }
