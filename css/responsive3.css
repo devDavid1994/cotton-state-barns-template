@@ -198,7 +198,7 @@ idap-pro css
         padding: 0 0;
         border-top: 1px solid #eee;
     }
-    .megamenu-content .mainwrap ul.main-menu li.menu-link ul.dropdown-submenu.mega-menu li.megamenu-li h2.sublink-title{
+    .megamenu-content .mainwrap ul.main-menu li.menu-link ul.drfopdown-submenu.mega-menu li.megamenu-li h2.sublink-title{
         display: none;
     }
     .megamenu-content .mainwrap ul.main-menu li.menu-link ul.dropdown-submenu.mega-menu li.megamenu-li a.sublink-title.sublink-title-lg{
@@ -677,6 +677,21 @@ idap-pro css
         padding-left: 23%;
         width: 100% !important;
     }
+    .title h1{
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 45px;
+    }
+
+    .title {
+        text-align: center;
+    }
+    .title img {
+        float: none;
+    }
+    .banner-image1{
+        width: 50%;
+    }
 }
 /*=====================================
 ipad css
@@ -875,6 +890,9 @@ ipad css
     .brochure-banner-content {
         padding-left: 23%;
         width: 100% !important;
+    }
+    .banner-image1{
+        width: 65%;
     }
 }
 /*=====================================
@@ -1307,6 +1325,7 @@ iphone css
         margin-top: 7px;
     }
     .brochure-banner-content {
+        padding-left: 10% !important;
         text-align: center !important;
         width: 100% !important;
     }

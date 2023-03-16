@@ -1,0 +1,73 @@
+
+.d-brochure-content span {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.d-brochure-content span {
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+.d-content-right {
+    flex-direction: column;
+    text-align: center !important;
+    padding-bottom: 100px !important;
+}
+
+.d-content-right input, .d-content-right a {
+    margin: 5px;
+    width: 100% !important;
+}
+
+.d-content .description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.d-brochure-content {
+    padding-top: 20px;
+}
+
+.d-brochure-content h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.container .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title img {
+    float: right;
+}
+
+.banner-image {
+    width: 100%;
+    text-align: center !important;
+}
+
+.title h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 85px;
+}
+
+
+h1 span {
+    color: green;
+}
+
+
+.container .first {
+    margin-left: 0px;
+}
+
+.d-content-banner {
+    position: relative !important;
+}
