@@ -19,7 +19,6 @@
 
 .d-content-right input, .d-content-right a {
     margin: 5px;
-    width: 100% !important;
 }
 
 .d-content .description, .banner-slogan p, .d-title p{
@@ -114,4 +113,18 @@ h1 span {
 .sq-badgeicon img {
     display: inline-block;
     width: 16%;
+}
+
+.inquiry-form {
+    margin-top: 50px;
+}
+
+.d-content-right input, .d-content-right a, .inquiry-form input {
+    width: 100%;
+    border:1px solid #295129;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    border-radius: 5px;
 }
