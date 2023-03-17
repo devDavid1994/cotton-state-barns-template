@@ -192,3 +192,97 @@ svg image {
 .bg-green {
     background-color: #295129 !important;
 }
+
+.title-select-bar {
+    display: flex;
+}
+.title-select-bar select, .title-select-bar span{
+    margin: 5px;
+}
+
+.title-select-bar span{
+    font-family: "Popins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-left: 25px !important;
+
+}
+.title-select-bar select {
+    width: 137px;
+}
+
+.view-button {
+    text-align: center;
+}
+
+.view-button input {
+    width: 50%;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+}
+
+.img-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-container {
+    padding: 10px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.overlay-container:hover {
+    border: 1px solid #295129;
+}
+
+.overlay-container span {
+    margin: 20px !important;
+    font-family: "Popins";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27px;
+    color: #295129;
+    text-align: center;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    font-family: "Popins";
+    font-weight: 500;
+    line-height: 33px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    width: 60%;
+}
