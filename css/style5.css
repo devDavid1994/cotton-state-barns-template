@@ -1607,6 +1607,17 @@ button.navbar-toggler span.line::after{
     z-index: 9;
     opacity: 0;
 }
+.full-banner .banner-main a.img-hover::before,
+.full-banner .banner-main a.img-hover::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9;
+    opacity: 0;
+}
 .organic-food-fresh-banner .offer-banner a.banner-hover::before,
 .full-banner .banner-main a.banner-hover::before{
     -webkit-transform: scale(1,0);
@@ -2090,7 +2101,7 @@ a.responsive-collapse span{
 }
 /* full banner css */
 .brochure-banner-content {
-    padding-left: 10%;
+    padding-left: 15%;
     text-align: left !important;
     width: 70% !important;
 }
