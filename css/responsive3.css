@@ -714,6 +714,10 @@ idap-pro css
         line-height: 60px;
     }
 
+    .title-image {
+        text-align: center !important;
+    }
+
 }
 /*=====================================
 ipad css

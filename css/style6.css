@@ -38,7 +38,10 @@
 .d-title p i {
     color: green;
     margin: 8px 8px;
+}
 
+.d-title-bar p {
+    padding: 5px;
 }
 
 .d-brochure-content {
@@ -57,7 +60,7 @@
     margin-bottom: 20px;
 }
 
-.title img {
+.title {
     float: right;
 }
 
@@ -150,6 +153,10 @@ h1 span {
     font-weight: bold !important;
 }
 
+.d-title p {
+    text-align: left !important;
+}
+
 .d-description, ul.a{
     font-family: "Poppins";
     font-size: 18px !important;
@@ -172,4 +179,16 @@ svg {
 svg image {
     width: 136px;
     height: 136px;
+}
+
+.title-image img{
+    width: 155px;
+}
+
+.title-banner {
+    margin-top: 20px !important;
+}
+
+.bg-green {
+    background-color: #295129 !important;
 }
