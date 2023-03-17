@@ -21,26 +21,26 @@
     margin: 5px;
 }
 
-.d-content .description, .banner-slogan p, .d-title p{
+.d-content .description, .banner-slogan p, .d-title p, .d-title-bars p{
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 400;
     line-height: 33px;
 }
 
-.d-title p {
+.d-title p, .d-title-bars p  {
     margin: 15px 0 15px 0;
     display: flex;
     flex-direction: row;
 }
 
 
-.d-title p i {
+.d-title p i, .d-title-bars p i {
     color: green;
     margin: 8px 8px;
 }
 
-.d-title-bar p {
+.d-title-bar p, .d-title-bars p  {
     padding: 5px;
 }
 
@@ -64,9 +64,13 @@
     float: right;
 }
 
-.banner-image {
+.banner-image, .banner-image2 {
     width: 100%;
     text-align: center !important;
+}
+
+.banner-image2 {
+    margin-bottom: 20px;
 }
 
 .title h1, .banner-slogan h1{
@@ -84,7 +88,7 @@
 }
 
 
-h1 span {
+h1 span, h3 span {
     color: green;
 }
 
@@ -195,6 +199,7 @@ svg image {
 
 .title-select-bar {
     display: flex;
+    align-items: center;
 }
 .title-select-bar select, .title-select-bar span{
     margin: 5px;
@@ -285,4 +290,10 @@ svg image {
     border-radius: 5px;
     padding: 0 5px 0 5px;
     width: 60%;
+}
+
+.italic {
+    font-style: italic;
+    color: #295129;
+    font-weight: 500;
 }
