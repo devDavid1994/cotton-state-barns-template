@@ -14,11 +14,20 @@
 .d-content-right {
     flex-direction: column;
     text-align: center !important;
-    padding-bottom: 100px !important;
+    padding: 40px !important;
 }
 
 .d-content-right input, .d-content-right a {
     margin: 5px;
+    width: 95% !important;
+}
+
+.d-content-right img {
+    margin-bottom: 10px;
+}
+
+.d-content-right .img-first {
+    margin-bottom: 50px !important;
 }
 
 .d-content .description, .banner-slogan p, .d-title p, .d-title-bars p{
@@ -61,8 +70,8 @@
     margin-bottom: 20px;
 }
 
-.title {
-    float: right;
+.float-right {
+    float: right !important;
 }
 
 .banner-image, .banner-image2 {
@@ -268,6 +277,7 @@ svg image {
     line-height: 27px;
     color: #295129;
     text-align: center;
+    display: block;
 }
 
 .img-container:hover .overlay {
@@ -326,7 +336,7 @@ svg image {
 
 .gallery .trim {
     width: 100%;
-    height: 101px;
+    height: 121px;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
@@ -338,8 +348,26 @@ svg image {
     justify-content: center;
 }
 
+.trim.trim-image {
+    border: none !important;
+    background-size: cover;
+}
+
 .col.sub-title span {
     color: black !important;
     font-size: 22px;
     font-weight: 400;
+}
+
+.right-banner {
+    margin-top: -20px !important;
+}
+
+.text-green {
+    color: #295129;
+}
+
+.img-reversal {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
