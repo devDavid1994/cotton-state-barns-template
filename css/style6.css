@@ -117,6 +117,7 @@ h1 span, h3 span {
     width: 50% !important;
     float: left;
     margin-left: 99px !important;
+    z-index: 0 !important;
 }
 
 .banner-slogan p{
@@ -374,5 +375,59 @@ svg image {
 
 .banner-bg-image {
     width: 100%;
-    height: 600px;
+    height: 600px !important;
+}
+
+.option-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+}
+
+.option-gallery span {
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+.option-trim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.door-option {
+    padding: 10px;
+    height: 145px;
+    width: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.door-option.special {
+    width: 290px;
+}
+
+.door-option.entry img {
+    width: 80% !important;
+    height: 100% !important;
+}
+
+.door-option.barn img {
+    width: 80% !important;
+    height: 100% !important
+}
+
+.door-option.window img {
+    width: 80% !important;
+    height: 80% !important
+}
+
+.door-option.interior img {
+    width: 100% !important;
+    height: 80% !important
 }
