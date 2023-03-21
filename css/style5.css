@@ -514,7 +514,7 @@ body.hidden {
 }
 @media (max-width: 1199px){
     .header-main-area.is-sticky{
-      background-color: #ffffff;
+        background-color: #ffffff;
     }
 }
 .header-main-area.is-sticky{
@@ -2101,7 +2101,7 @@ a.responsive-collapse span{
 }
 /* full banner css */
 .brochure-banner-content {
-    padding-left: 15%;
+    padding-left: 15% !important;
     text-align: left !important;
     width: 70% !important;
 }

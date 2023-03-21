@@ -30,26 +30,26 @@
     margin-bottom: 50px !important;
 }
 
-.d-content .description, .banner-slogan p, .d-title p, .d-title-bars p{
+.d-content .description, .banner-slogan p, .d-title p, .d-title-bar p{
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 400;
     line-height: 33px;
 }
 
-.d-title p, .d-title-bars p  {
+.d-title p, .d-title-bar p  {
     margin: 15px 0 15px 0;
     display: flex;
     flex-direction: row;
 }
 
 
-.d-title p i, .d-title-bars p i {
+.d-title p i, .d-title-bar p i {
     color: green;
     margin: 8px 8px;
 }
 
-.d-title-bar p, .d-title-bars p  {
+.d-title-bar p {
     padding: 5px;
     text-align: left !important;
 }
@@ -97,11 +97,9 @@
     line-height: 50px;
 }
 
-
-h1 span, h3 span {
-    color: green;
-}
-
+.title1 h1~h1 {
+    margin-top: 20px;
+} 
 
 .container .first {
     margin-left: 0px;
@@ -114,7 +112,7 @@ h1 span, h3 span {
 .banner-slogan {
     font-family: "Poppins";
     text-align: left !important;
-    width: 50% !important;
+    width: 52% !important;
     float: left;
     margin-left: 99px !important;
     z-index: 0 !important;
@@ -340,9 +338,8 @@ svg image {
     height: 121px;
     text-align: center;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 33px;
-    color: white;
     border: 1px solid black;
     display: flex;
     align-items: center;
@@ -368,6 +365,10 @@ svg image {
     color: #295129;
 }
 
+.text-brown {
+    color: #661a00;
+}
+
 .img-reversal {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -387,7 +388,7 @@ svg image {
 .option-gallery span {
     font-family: "poppins";
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 18px;
     text-align: center;
     padding: 0 5px 0 5px;
@@ -401,15 +402,16 @@ svg image {
 
 .door-option {
     padding: 10px;
-    height: 145px;
-    width: 145px;
+    height: 155px;
+    width: 155px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .door-option.special {
-    width: 290px;
+    width: 310px;
+    height: 105px;
 }
 
 .door-option.entry img {
@@ -430,4 +432,8 @@ svg image {
 .door-option.interior img {
     width: 100% !important;
     height: 80% !important
+}
+
+.text-underline {
+    text-decoration: underline;
 }
