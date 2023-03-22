@@ -213,7 +213,11 @@ svg image {
     height: 136px;
 }
 
-.title-image img{
+.title-image {
+    text-align: center;
+}
+
+.title-image img {
     width: 155px;
 }
 
@@ -422,16 +426,16 @@ svg image {
 
 .door-option {
     padding: 10px;
-    height: 155px;
-    width: 155px;
+    height: 165px;
+    width: 165px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .door-option.special {
-    width: 310px;
-    height: 105px;
+    width: 330px;
+    height: 115px;
 }
 
 .door-option.entry img {
@@ -474,6 +478,8 @@ svg image {
 .vertical-slogan {
     position:  absolute !important;
     bottom: 150px;
+    width: 90% !important;
+    z-index: 10 !important;
 }
 
 .vertical-slogan h1{
@@ -490,5 +496,47 @@ svg image {
 
 .wide-image {
     margin: 30px 20px 30px 20px;
-    width: 200px !important;
+    width: 90% !important;
+}
+
+/* .diagram-modal {
+    width: 60vw;
+    height: 50vh;
+    background-color: #fff;
+    display: grid !important;
+}
+
+.diagram-modal img {
+    width: 95%;
+    height: 428px;
+    align-self: center;
+    justify-self: center;
+} */
+
+.diagram-modal {
+    max-width: 800px !important;
+}
+
+.diagram-modal .pop-up-newsletter {
+    padding: 25px !important;
+}
+
+.extra-slide.door-slide .swiper-slide{
+    margin-right: 0px !important;
+}
+
+.extra-slide.window-slide .swiper-slide.special{
+    width: 300px !important;
+}
+
+.extra-slide.window-slide .swiper-slide.special img{
+    height: 60%;
+    margin: 40px 0 35px 0;
+}
+.extra-slide .tred-pro .tr-pro-img a img {
+    height: 140px;
+}
+
+.tred-pro .tr-pro-img a {
+    text-align: center;
 }
