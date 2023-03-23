@@ -1,7 +1,7 @@
 <!-- top notification bar start -->
 <section class="top-3 bg-white">
     <div class="container">
-        <div class="row ">
+        <div class="row special">
             <div class="col">
                 <ul class="top-home">
                     <li class="top-home-li t-content">
@@ -45,7 +45,7 @@
 <header class="header-area">
     <div class="header-main-area">
         <div class="container">
-            <div class="row">
+            <div class="row special">
                 <div class="col">
                     <div class="header-main">
                         <!-- logo start -->
