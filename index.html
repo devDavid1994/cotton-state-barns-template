@@ -117,13 +117,22 @@
                                         <li class="side-wrap cart-wrap">
                                             <div class="shopping-widget">
                                                 <div class="shopping-cart">
-                                                    <a href="#" class="cart-count">
+                                                   <!-- <a href="#" class="cart-count">
                                                 <span class="wishlist-icon">Your Dealer:</span>
                                                             <span><b style="color: #295129;">Gardendale, AL</b></span>
                                                     </a>
 													<div class="addressphonehours">
 													<p>3208 Decatur Hwy, Gardendale, AL</p>
-													<p>PHONE: (205) 914-2286</p>
+													<p>PHONE: (205) 914-2286</p>-->
+
+														<a href="#" id="openLocationChange">
+															<span class="wishlist-icon">Your Dealer:</span>
+															<span><b style="color: #295129;" id="dealer_name">No dealer found.</b></span>
+														</a>
+														<div class="addressphonehours" id="dealer_info" style="display: none">
+															<p id="dealer_addr">3208 Decatur Hwy, Gardendale, AL</p>
+															<p id="dealer_phone">PHONE: (205) 914-2286</p>
+														</div>
 													</div>
                                                 </div>
                                             </div>
@@ -1593,7 +1602,7 @@
                             <div class="f-logo">
                                 <ul class="footer-ul">
                                     <li class="footer-li footer-logo">
-                                        <a href="index3.html">
+                                        <a href="/">
                                             <img class="img-fluid" src="image/logo2.png" alt="">
                                         </a>
                                     </li>
@@ -1756,6 +1765,31 @@
                 </div>
             </div>
         </div>
+
+		<div class="vegist-popup animated modal" id="changelocalModal" tabindex="-1" role="dialog" aria-modal="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content" style="padding: 20px;">
+					<div class="modal-body">
+						<div class="popup-content">
+							<a href="javascript:void(0)" data-bs-dismiss="modal" aria-label="Close" class="close-btn"><i class="ion-close-round"></i></a>
+
+							<div class="modal-body">
+								<div class="col-12">
+									<h4 style="font-size:14px; font-weight:500; color:#008752; margin-bottom:5px;">Cotton State Barns</h4>
+									<h3 style="font-size:20px;color:#333;">Enter your zip code to change current dealer location.<br><br></h3>
+									<!-- Start Newsletter Inner -->
+									<div class="inner">
+										<input name="ZIP" class="form-control" placeholder="Zip code..." required="" id="zipcode" type="text" size="50"><br><br>
+										<button class="btn btn-style1" id="changeLocationBnt">CHANGE LOCATION</button>
+									</div>
+									<!-- End Newsletter Inner -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
         <!-- newsletter pop-up end -->
         <!-- back to top start -->
         <a href="javascript:void(0)" class="scroll" id="top">
@@ -1777,5 +1811,8 @@
         <script src="js/swiper.min.js"></script>
         <!-- custom -->
         <script src="js/custom.js"></script>
+
+		<!-- Dealer Locator -->
+		<script src="js/dealer-locater.js"></script>
     </body>
 </html>

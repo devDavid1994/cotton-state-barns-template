@@ -3031,6 +3031,7 @@ a.scroll:hover span{
     top: 5px;
     right: 10px;
     font-size: 18px;
+    z-index:10;
 }
 .vegist-popup .modal-dialog .modal-content .modal-body .popup-content .pop-up-newsletter{
     padding: 60px;
