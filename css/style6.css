@@ -540,3 +540,8 @@ svg image {
 .tred-pro .tr-pro-img a {
     text-align: center;
 }
+
+.row.special {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
