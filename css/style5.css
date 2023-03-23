@@ -2761,6 +2761,7 @@ footer css
 }
 .home3-footer{
     display: flex;
+    column-gap: 20px;
 }
 .f-logo{
     width: 20%;
