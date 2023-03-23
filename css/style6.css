@@ -14,33 +14,49 @@
 .d-content-right {
     flex-direction: column;
     text-align: center !important;
-    padding-bottom: 100px !important;
+    padding: 40px !important;
 }
 
-.d-content-right input, .d-content-right a {
+.d-content-right input, 
+.d-content-right a {
     margin: 5px;
+    width: 95% !important;
 }
 
-.d-content .description, .banner-slogan p, .d-title p, .d-title-bars p{
+.d-content-right img {
+    margin-bottom: 10px;
+}
+
+.d-content-right .img-first {
+    margin-bottom: 50px !important;
+}
+
+.d-content .description, 
+.extra-btn-style,
+.banner-slogan p,
+.d-title-bar p,
+.d-title p {
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 400;
     line-height: 33px;
 }
 
-.d-title p, .d-title-bars p  {
+.d-title-bar p, 
+.d-title p {
     margin: 15px 0 15px 0;
     display: flex;
     flex-direction: row;
 }
 
 
-.d-title p i, .d-title-bars p i {
+.d-title p i, 
+.d-title-bar p i {
     color: green;
     margin: 8px 8px;
 }
 
-.d-title-bar p, .d-title-bars p  {
+.d-title-bar p {
     padding: 5px;
     text-align: left !important;
 }
@@ -61,11 +77,17 @@
     margin-bottom: 20px;
 }
 
-.title {
-    float: right;
+.container .row.top-bar {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
-.banner-image, .banner-image2 {
+.float-right {
+    float: right !important;
+}
+
+.banner-image, 
+.banner-image2 {
     width: 100%;
     text-align: center !important;
 }
@@ -74,7 +96,8 @@
     margin-bottom: 20px;
 }
 
-.title h1, .banner-slogan h1{
+.title h1, 
+.banner-slogan h1{
     font-family: "Poppins";
     font-size: 80px;
     font-weight: 500;
@@ -88,11 +111,9 @@
     line-height: 50px;
 }
 
-
-h1 span, h3 span {
-    color: green;
-}
-
+.title1 h1~h1 {
+    margin-top: 20px;
+} 
 
 .container .first {
     margin-left: 0px;
@@ -107,14 +128,16 @@ h1 span, h3 span {
     text-align: left !important;
     width: 50% !important;
     float: left;
-    margin-left: 99px !important;
+    margin-left: 85px !important;
+    z-index: 0 !important;
 }
 
 .banner-slogan p{
     margin: 20px 0 20px 0;
 }
 
-.banner-slogan h3 {
+.banner-slogan h3, 
+.banner-slogan h3 p {
     font-family: "Poppins";
     font-size: 40px !important;
     font-weight: bold !important;
@@ -134,7 +157,9 @@ h1 span, h3 span {
     margin-top: 50px;
 }
 
-.d-content-right input, .d-content-right a, .inquiry-form input {
+.d-content-right input, 
+.d-content-right a, 
+.inquiry-form input {
     width: 100%;
     border:1px solid #295129;
     font-family: "Poppins";
@@ -144,7 +169,8 @@ h1 span, h3 span {
     border-radius: 5px;
 }
 
-.d-title, .d-description {
+.d-title, 
+.d-description {
     text-align: center;
     width: 100% !important;
     margin: 0 !important;
@@ -162,7 +188,8 @@ h1 span, h3 span {
     text-align: left !important;
 }
 
-.d-description, ul.a{
+.d-description, 
+ul.a {
     font-family: "Poppins";
     font-size: 18px !important;
     font-weight: 400 !important;
@@ -186,7 +213,11 @@ svg image {
     height: 136px;
 }
 
-.title-image img{
+.title-image {
+    text-align: center;
+}
+
+.title-image img {
     width: 155px;
 }
 
@@ -202,7 +233,8 @@ svg image {
     display: flex;
     align-items: center;
 }
-.title-select-bar select, .title-select-bar span{
+.title-select-bar select, 
+.title-select-bar span {
     margin: 5px;
 }
 
@@ -268,6 +300,7 @@ svg image {
     line-height: 27px;
     color: #295129;
     text-align: center;
+    display: block;
 }
 
 .img-container:hover .overlay {
@@ -326,20 +359,184 @@ svg image {
 
 .gallery .trim {
     width: 100%;
-    height: 101px;
+    height: 121px;
     text-align: center;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 33px;
-    color: white;
     border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.trim.trim-image {
+    border: none !important;
+    background-size: cover;
+}
+
 .col.sub-title span {
     color: black !important;
     font-size: 22px;
     font-weight: 400;
+}
+
+.right-banner {
+    margin-top: -20px !important;
+}
+
+.text-green {
+    color: #295129;
+}
+
+.text-brown {
+    color: #661a00;
+}
+
+.img-reversal {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.banner-bg-image {
+    width: 100%;
+    height: 600px !important;
+}
+
+.option-gallery {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+}
+
+.option-gallery span {
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+.option-trim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.door-option {
+    padding: 10px;
+    height: 165px;
+    width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.door-option.special {
+    width: 330px;
+    height: 115px;
+}
+
+.door-option.entry img {
+    width: 80% !important;
+    height: 100% !important;
+}
+
+.door-option.barn img {
+    width: 80% !important;
+    height: 100% !important
+}
+
+.door-option.window img {
+    width: 80% !important;
+    height: 80% !important
+}
+
+.door-option.interior img {
+    width: 100% !important;
+    height: 80% !important
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.footer-link {
+    margin-left: 20px;
+}
+
+.row.vertical-banner {
+    margin-top: 1px !important;
+}
+
+.row.vertical-banner .col {
+    margin-top: 0px !important;
+    position:  relative !important;
+}
+
+.vertical-slogan {
+    position:  absolute !important;
+    bottom: 150px;
+    width: 90% !important;
+    z-index: 10 !important;
+}
+
+.vertical-slogan h1{
+    line-height: 80px !important;
+}
+
+.vertical-slogan h1.text-green{
+    font-weight: bold !important;
+}
+
+.vertical-slogan a {
+    margin-top: 40px !important;
+}
+
+.wide-image {
+    margin: 30px 20px 30px 20px;
+    width: 90% !important;
+}
+
+/* .diagram-modal {
+    width: 60vw;
+    height: 50vh;
+    background-color: #fff;
+    display: grid !important;
+}
+
+.diagram-modal img {
+    width: 95%;
+    height: 428px;
+    align-self: center;
+    justify-self: center;
+} */
+
+.diagram-modal {
+    max-width: 800px !important;
+}
+
+.diagram-modal .pop-up-newsletter {
+    padding: 25px !important;
+}
+
+.extra-slide.door-slide .swiper-slide{
+    margin-right: 0px !important;
+}
+
+.extra-slide.window-slide .swiper-slide.special{
+    width: 300px !important;
+}
+
+.extra-slide.window-slide .swiper-slide.special img{
+    height: 60%;
+    margin: 40px 0 35px 0;
+}
+.extra-slide .tred-pro .tr-pro-img a img {
+    height: 140px;
+}
+
+.tred-pro .tr-pro-img a {
+    text-align: center;
 }

@@ -514,7 +514,7 @@ body.hidden {
 }
 @media (max-width: 1199px){
     .header-main-area.is-sticky{
-      background-color: #ffffff;
+        background-color: #ffffff;
     }
 }
 .header-main-area.is-sticky{
@@ -533,13 +533,14 @@ body.hidden {
     animation: smoothScroll 1s forwards;
 }
 @keyframes smoothScroll {
-  0% {
-    transform: translateY(-150px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+    0% {
+        transform: translateY(-150px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
+
 .header-main-area .header-main{
     padding: 20px 0px;
     display: flex;
@@ -655,7 +656,7 @@ body.hidden {
     border-top: none;
 }
 .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link a.link-title{
-    padding: 8px 15px;
+    padding: 6px 15px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -1349,7 +1350,7 @@ button.navbar-toggler span.line::after{
     margin-left: auto
 }
 .home-slider-3 .menu-slider .home-slider-3 .home-slider3 .img-back{
-    height: 463px;
+    height: 472px;
     margin-top: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -2101,7 +2102,7 @@ a.responsive-collapse span{
 }
 /* full banner css */
 .brochure-banner-content {
-    padding-left: 15%;
+    padding-left: 15% !important;
     text-align: left !important;
     width: 70% !important;
 }
@@ -3526,4 +3527,8 @@ a.scroll:hover span{
 
 #collapse-top-home li{
     margin-top: 5px;
+}
+
+.first-content.is-first {
+    padding-top: 250px !important;
 }

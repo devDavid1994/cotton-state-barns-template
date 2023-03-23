@@ -17,6 +17,7 @@ resizefullscreen();
 ==============================================================*/
 
 $("button.navbar-toggler").on('click', function(){
+    console.log('I know');
     $(".main-menu-area").addClass("active");
     $(".mm-fullscreen-bg").addClass("active");
     $("body").addClass("hidden");
@@ -37,8 +38,10 @@ $(".mm-fullscreen-bg").on('click', function(){
 /*==============================================================
   Newsletter Popup
 ==============================================================*/
-//$('#myModal1').modal('show');
 
+$("button.diagram-btn").on('click', function() {
+  $('#myModal2').modal('show');
+})
 /*==============================================================
 // cart js
 ==============================================================*/
@@ -67,11 +70,14 @@ $(".mm-fullscreen-bg").on('click', function(){
   $(window).scroll(function() {
     var sticky = $('.header-main-area'),
     scroll = $(window).scrollTop();
-    if (scroll >= 150) {
+    var section = $('.first-content');
+    if (scroll >= 50) {
       sticky.addClass('is-sticky');
+      section.addClass('is-first');
     }
     else {
       sticky.removeClass('is-sticky');
+      section.removeClass('is-first');
     }
   });
 
@@ -3043,7 +3049,7 @@ var swiper = new Swiper('.swiper-container#home-cat', {
   });
 
 // blog
- $('#blog-slider-13').owlCarousel({
+$('#blog-slider-13').owlCarousel({
     loop: false,
     rewind: true,
     margin: 30,
