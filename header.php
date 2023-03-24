@@ -1,7 +1,7 @@
 <!-- top notification bar start -->
 <section class="top-3 bg-white">
     <div class="container">
-        <div class="row ">
+        <div class="row special">
             <div class="col">
                 <ul class="top-home">
                     <li class="top-home-li t-content">
@@ -14,10 +14,10 @@
                     <li class="top-home-li">
                         <ul class="top-dropdown">
                             <li class="top-dropdown-li notification-title">
-                                <a href="about-us.html">About us</a>
+                                <a href="about-us.php">About us</a>
                             </li>
                             <li class="top-dropdown-li notification-title">
-                                <a href="dealer.html">Become a Dealer</a>
+                                <a href="dealer.php">Become a Dealer</a>
                             </li>
                             <!-- login start
                             <li class="top-dropdown-li">
@@ -45,12 +45,12 @@
 <header class="header-area">
     <div class="header-main-area">
         <div class="container">
-            <div class="row">
+            <div class="row special">
                 <div class="col">
                     <div class="header-main">
                         <!-- logo start -->
                         <div class="header-element logo">
-                            <a href="index3.html">
+                            <a href="index.php">
                                 <img src="image/logo2.png" alt="logo-image" class="img-fluid">
                             </a>
                         </div>
@@ -82,22 +82,13 @@
                                 <li class="side-wrap cart-wrap">
                                     <div class="shopping-widget">
                                         <div class="shopping-cart">
-                                            <!-- <a href="#" class="cart-count">
-                                        <span class="wishlist-icon">Your Dealer:</span>
-                                                    <span><b style="color: #295129;">Gardendale, AL</b></span>
+                                            <a href="#" class="cart-count" id="openLocationChange">
+                                                <span class="wishlist-icon">Your Dealer:</span>
+                                                <span><b style="color: #295129;">No dealer found</b></span>
                                             </a>
                                             <div class="addressphonehours">
-                                            <p>3208 Decatur Hwy, Gardendale, AL</p>
-                                            <p>PHONE: (205) 914-2286</p>-->
-
-                                                <a href="#" id="openLocationChange">
-                                                    <span class="wishlist-icon">Your Dealer:</span>
-                                                    <span><b style="color: #295129;" id="dealer_name">No dealer found.</b></span>
-                                                </a>
-                                                <div class="addressphonehours" id="dealer_info" style="display: none">
-                                                    <p id="dealer_addr">3208 Decatur Hwy, Gardendale, AL</p>
-                                                    <p id="dealer_phone">PHONE: (205) 914-2286</p>
-                                                </div>
+                                                <p>3208 Decatur Hwy, Gardendale, AL</p>
+                                                <p>PHONE: (205) 914-2286</p>
                                             </div>
                                         </div>
                                     </div>
@@ -112,7 +103,7 @@
         <!-- menu start  -->
         <section class="menu-area">
             <div class="container">
-                <div class="row">
+                <div class="row special">
                     <div class="col">
                         <div class="top-menu">
                             <!-- vega menu start -->
@@ -132,19 +123,19 @@
                                                 </a>
                                                 <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                     <li class="submenu-li">
-                                                        <a href="shed-barns.html" class="sublink-title">
+                                                        <a href="shed-barns.php" class="sublink-title">
                                                             <img src="image/csb/img/Barns/Barn.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Barn</span>
                                                         </a>
                                                     </li>
                                                     <li class="submenu-li">
-                                                        <a href="shed-lofted-barns.html" class="sublink-title">
+                                                        <a href="shed-lofted-barns.php" class="sublink-title">
                                                             <img src="image/csb/img/Barns/Lofted_Barn.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Lofted Barn</span>
                                                         </a>
                                                     </li>
                                                     <li class="submenu-li">
-                                                        <a href="shed-side-lofted-barns.html" class="sublink-title">
+                                                        <a href="shed-side-lofted-barns.php" class="sublink-title">
                                                             <img src="image/csb/img/Barns/Side_Lofted_Barn.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Side Lofted Barn</span>
                                                         </a>
@@ -152,19 +143,19 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="shed-utility.html" class="link-title">
+                                                <a href="shed-utility.php" class="link-title">
                                                     <img src="image/csb/img/sm_utility_icon.jpg" alt="menu-image" style="width: 53px;">
                                                     <span>Utility</span>
                                                 </a>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="shed-cottage.html" class="link-title">
+                                                <a href="shed-cottage.php" class="link-title">
                                                     <img src="image/csb/img/sm_cottageshed_icon.jpg" alt="menu-image" style="width: 55px;">
                                                     <span>Cottage Sheds</span>
                                                 </a>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="shed-garden.html" class="link-title">
+                                                <a href="shed-garden.php" class="link-title">
                                                     <img src="image/csb/img/sm_gardenshed_icon.jpg" alt="menu-image" style="width: 55px;">
                                                     <span>Garden Sheds</span>
                                                 </a>
@@ -176,37 +167,37 @@
                                                 </a>
                                                 <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                     <li class="submenu-li">
-                                                        <a href="shed-cabin.html" class="sublink-title">
+                                                        <a href="shed-cabin.php" class="sublink-title">
                                                             <img src="image/csb/img/Cabins/Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Cabin</span>
                                                         </a>
                                                     </li>
                                                     <li class="submenu-li">
-                                                        <a href="shed-lofted-barn-cabin.html" class="sublink-title">
+                                                        <a href="shed-lofted-barn-cabin.php" class="sublink-title">
                                                             <img src="image/csb/img/Cabins/Lofted_Barn_Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Lofted Cabin</span>
                                                         </a>
                                                     </li>
                                                     <li class="submenu-li">
-                                                        <a href="shed-deluxe-cabin.html" class="sublink-title">
+                                                        <a href="shed-deluxe-cabin.php" class="sublink-title">
                                                             <img src="image/csb/img/Cabins/barn8white.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Deluxe Cabin</span>
                                                         </a>
                                                     </li>
                                                     <li class="submenu-li">
-                                                        <a href="shed-deluxe-lofted-barn-cabin.html" class="sublink-title">
+                                                        <a href="shed-deluxe-lofted-barn-cabin.php" class="sublink-title">
                                                             <img src="image/csb/img/Cabins/Lofted_Deluxe_Barn_Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Lofted Deluxe Cabin</span>
                                                         </a>
                                                     </li>
                                                     <li class="submenu-li">
-                                                        <a href="shed-pioneer-cabins.html" class="sublink-title">
+                                                        <a href="shed-pioneer-cabins.php" class="sublink-title">
                                                             <img src="image/csb/img/Cabins/Pioneer_Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Pioneer Cabin</span>
                                                         </a>
                                                     </li>
                                                     <li class="submenu-li">
-                                                        <a href="shed-lofted-pioneer-cabins.html" class="sublink-title">
+                                                        <a href="shed-lofted-pioneer-cabins.php" class="sublink-title">
                                                             <img src="image/csb/img/Cabins/Lofted_Pioneer_Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Lofted Pioneer Cabin</span>
                                                         </a>
@@ -220,13 +211,13 @@
                                                 </a>
                                                 <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                     <li class="submenu-li">
-                                                        <a href="shed-garages.html" class="sublink-title">
+                                                        <a href="shed-garages.php" class="sublink-title">
                                                             <img src="image/csb/img/Garages/Garage.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Garage</span>
                                                         </a>
                                                     </li>
                                                     <li class="submenu-li">
-                                                        <a href="shed-lofted-barn-garages.html" class="sublink-title">
+                                                        <a href="shed-lofted-barn-garages.php" class="sublink-title">
                                                             <img src="image/csb/img/Garages/Lofted_Garage.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Lofted Garage</span>
                                                         </a>
@@ -234,31 +225,31 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="shed-tool.html" class="link-title">
+                                                <a href="shed-tool.php" class="link-title">
                                                     <img src="image/csb/img/sm_toolshed_icon.jpg" alt="menu-image" style="width: 52px;">
                                                     <span>Tool Sheds</span>
                                                 </a>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="shed-sun-studios.html" class="link-title">
+                                                <a href="shed-sun-studios.php" class="link-title">
                                                     <img src="image/csb/img/sm_sunstudio_icon.jpg" alt="menu-image" style="width: 51px;">
                                                     <span>Sun Studios</span>
                                                 </a>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="shed-cabanas.html" class="link-title">
+                                                <a href="shed-cabanas.php" class="link-title">
                                                     <img src="image/csb/img/sm_cabana_icon.jpg" alt="menu-image" style="width: 55px;">
                                                     <span>Cabanas</span>
                                                 </a>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="shed-livestock-shelters.html" class="link-title">
+                                                <a href="shed-livestock-shelters.php" class="link-title">
                                                     <img src="image/csb/img/sm_animalshelter_icon.jpg" alt="menu-image" style="width: 55px;">
                                                     <span>Animal Shelters</span>
                                                 </a>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="shed-budget.html" class="link-title">
+                                                <a href="shed-budget.php" class="link-title">
                                                     <img src="image/csb/img/Budget_icon.jpg" alt="menu-image" style="width: 55px;">
                                                     <span>Budget Series</span>
                                                 </a>
@@ -273,7 +264,7 @@
                                 <div class="mainwrap">
                                     <ul class="main-menu">
                                         <li class="menu-link parent">
-                                            <a href="about-us.html" class="link-title">
+                                            <a href="about-us.php" class="link-title">
                                                 <span class="sp-link-title">ABOUT US</span>
                                             </a>
                                         </li>
@@ -288,15 +279,15 @@
                                             </a>
                                             <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                 <li class="submenu-li">
-                                                    <a href="materials.html" class="submenu-link">Materials</a>
+                                                    <a href="materials.php" class="submenu-link">Materials</a>
                                                 </li>
                                                 <li class="submenu-li">
-                                                    <a href="options.html" class="submenu-link">Options</a>
+                                                    <a href="options.php" class="submenu-link">Options</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="menu-link">
-                                            <a href="rent-to-own.html" class="link-title">
+                                            <a href="rent-to-own.php" class="link-title">
                                                 <span class="sp-link-title">Rent-To-Own</span>
                                             </a>
                                         </li>
@@ -311,19 +302,19 @@
                                             </a>
                                             <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                 <li class="submenu-li">
-                                                    <a href="delivery.html" class="submenu-link">Delivery</a>
+                                                    <a href="delivery.php" class="submenu-link">Delivery</a>
                                                 </li>
                                                 <li class="submenu-li">
-                                                    <a href="dimensions.html" class="submenu-link">Dimensions</a>
+                                                    <a href="dimensions.php" class="submenu-link">Dimensions</a>
                                                 </li>
                                                 <li class="submenu-li">
-                                                    <a href="engineer-certified.html" class="submenu-link">Engineer Certified</a>
+                                                    <a href="engineer-certified.php" class="submenu-link">Engineer Certified</a>
                                                 </li>
                                                 <li class="submenu-li">
-                                                    <a href="warranty.html" class="submenu-link">Warranty</a>
+                                                    <a href="warranty.php" class="submenu-link">Warranty</a>
                                                 </li>
                                                 <li class="submenu-li">
-                                                    <a href="dealer.html" class="submenu-link">Became a Dealer</a>
+                                                    <a href="dealer.php" class="submenu-link">Became a Dealer</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -362,7 +353,7 @@
                                     <div class="mainwrap">
                                         <ul class="main-menu">
                                             <li class="menu-link">
-                                                <a href="about-us.html" class="link-title">
+                                                <a href="about-us.php" class="link-title">
                                                     <span class="sp-link-title">About us</span>
                                                 </a>
                                             </li>
@@ -377,15 +368,15 @@
                                                 </a>
                                                 <ul class="dropdown-submenu banner-menu collapse" id="collapse-mega-menu1">
                                                     <li class="menu-banner">
-                                                        <a href="materials.html" class="menu-banner-title"><span>Material</span></a>
+                                                        <a href="materials.php" class="menu-banner-title"><span>Material</span></a>
                                                     </li>
                                                     <li class="menu-banner">
-                                                        <a href="options.html" class="menu-banner-title"><span>Options</span></a>
+                                                        <a href="options.php" class="menu-banner-title"><span>Options</span></a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li class="menu-link">
-                                                <a href="rent-to-own.html" class="link-title">
+                                                <a href="rent-to-own.php" class="link-title">
                                                     <span class="sp-link-title">rent-to-own</span>
                                                 </a>
                                             </li>
@@ -400,19 +391,19 @@
                                                 </a>
                                                 <ul class="dropdown-submenu banner-menu collapse" id="collapse-mega-menu">
                                                     <li class="menu-banner">
-                                                        <a href="delivery.html" class="menu-banner-title"><span>Delivery</span></a>
+                                                        <a href="delivery.php" class="menu-banner-title"><span>Delivery</span></a>
                                                     </li>
                                                     <li class="menu-banner">
-                                                        <a href="dimensions.html" class="menu-banner-title"><span>Dimensions</span></a>
+                                                        <a href="dimensions.php" class="menu-banner-title"><span>Dimensions</span></a>
                                                     </li>
                                                     <li class="menu-banner">
-                                                        <a href="engineer-certified.html" class="menu-banner-title"><span>Engineer Certified</span></a>
+                                                        <a href="engineer-certified.php" class="menu-banner-title"><span>Engineer Certified</span></a>
                                                     </li>
                                                     <li class="menu-banner">
-                                                        <a href="warranty.html" class="menu-banner-title"><span>Warranty</span></a>
+                                                        <a href="warranty.php" class="menu-banner-title"><span>Warranty</span></a>
                                                     </li>
                                                     <li class="menu-banner">
-                                                        <a href="dealer.html" class="menu-banner-title"><span>Became a dealer</span></a>
+                                                        <a href="dealer.php" class="menu-banner-title"><span>Became a dealer</span></a>
                                                     </li>
                                                 </ul>
                                             </li>
