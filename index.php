@@ -33,49 +33,9 @@
         <link rel="stylesheet" type="text/css" href="css/responsive3.css">
     </head>
     <body>
-        <!-- top notification bar start -->
-        <section class="top-3 bg-white">
-            <div class="container">
-                <div class="row ">
-                    <div class="col">
-                        <ul class="top-home">
-                            <li class="top-home-li t-content">
-                                <!-- offer text start -->
-                                <div class="top-content">
-                                    <p class="top-slogn"><span class="top-c">Free Shipping and Setup </span> within 50 miles!</p>
-                                </div>
-                                <!-- offer text end -->
-                            </li>
-                            <li class="top-home-li">
-                                <ul class="top-dropdown">
-                                    <li class="top-dropdown-li notification-title">
-                                        <a href="about-us.html">About us</a>
-                                    </li>
-                                    <li class="top-dropdown-li notification-title">
-                                        <a href="dealer.html">Become a Dealer</a>
-                                    </li>
-                                    <!-- login start
-                                    <li class="top-dropdown-li">
-                                        <a href="javascript:void(0)">Account</a>
-                                        <i class="ion-ios-arrow-down"></i>
-                                        <ul class="account">
-                                            <li><a href="register.html">register / log in</a></li>
-                                            <li><a href="checkout-3.html">checkout</a></li>
-                                            <li><a href="wishlist.html">my wishlist</a></li>
-                                            <li><a href="order-complete.html">order history</a></li>
-                                            <li><a href="cart-3.html">my cart</a></li>
-                                        </ul>
-                                    </li>
-                                    login end -->
-                                    
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- top notification bar start -->
+        
+        <?php include 'header.php'; ?>
+
         <!-- header start -->
         <header class="header-area">
             <div class="header-main-area">
@@ -85,7 +45,7 @@
                             <div class="header-main">
                                 <!-- logo start -->
                                 <div class="header-element logo">
-                                    <a href="index3.html">
+                                    <a href="index3.php">
                                         <img src="image/logo2.png" alt="logo-image" class="img-fluid">
                                     </a>
                                 </div>
@@ -94,7 +54,7 @@
                                 <div class="header-element header-search">
                                     <form>
                                         <input type="text" name="search" placeholder="Search Product.">
-                                        <a href="search.html" class="search-btn"><i class="fa fa-search"></i></a>
+                                        <a href="search.php" class="search-btn"><i class="fa fa-search"></i></a>
                                     </form>
                                 </div>
                                 <!-- search end -->
@@ -167,19 +127,19 @@
                                                         </a>
                                                         <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                             <li class="submenu-li">
-                                                                <a href="shed-barns.html" class="sublink-title">
+                                                                <a href="shed-barns.php" class="sublink-title">
                                                                     <img src="image/csb/img/Barns/Barn.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Barn</span>
                                                                 </a>
                                                             </li>
                                                             <li class="submenu-li">
-                                                                <a href="shed-lofted-barns.html" class="sublink-title">
+                                                                <a href="shed-lofted-barns.php" class="sublink-title">
                                                                     <img src="image/csb/img/Barns/Lofted_Barn.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Lofted Barn</span>
                                                                 </a>
                                                             </li>
                                                             <li class="submenu-li">
-                                                                <a href="shed-side-lofted-barns.html" class="sublink-title">
+                                                                <a href="shed-side-lofted-barns.php" class="sublink-title">
                                                                     <img src="image/csb/img/Barns/Side_Lofted_Barn.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Side Lofted Barn</span>
                                                                 </a>
@@ -187,19 +147,19 @@
                                                         </ul>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="shed-utility.html" class="link-title">
+                                                        <a href="shed-utility.php" class="link-title">
                                                             <img src="image/csb/img/sm_utility_icon.jpg" alt="menu-image" style="width: 53px;">
                                                             <span>Utility</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="shed-cottage.html" class="link-title">
+                                                        <a href="shed-cottage.php" class="link-title">
                                                             <img src="image/csb/img/sm_cottageshed_icon.jpg" alt="menu-image" style="width: 55px;">
                                                             <span>Cottage Sheds</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="shed-garden.html" class="link-title">
+                                                        <a href="shed-garden.php" class="link-title">
                                                             <img src="image/csb/img/sm_gardenshed_icon.jpg" alt="menu-image" style="width: 55px;">
                                                             <span>Garden Sheds</span>
                                                         </a>
@@ -211,37 +171,37 @@
                                                         </a>
                                                         <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                             <li class="submenu-li">
-                                                                <a href="shed-cabin.html" class="sublink-title">
+                                                                <a href="shed-cabin.php" class="sublink-title">
                                                                     <img src="image/csb/img/Cabins/Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Cabin</span>
                                                                 </a>
                                                             </li>
                                                             <li class="submenu-li">
-                                                                <a href="shed-lofted-barn-cabin.html" class="sublink-title">
+                                                                <a href="shed-lofted-barn-cabin.php" class="sublink-title">
                                                                     <img src="image/csb/img/Cabins/Lofted_Barn_Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Lofted Cabin</span>
                                                                 </a>
                                                             </li>
                                                             <li class="submenu-li">
-                                                                <a href="shed-deluxe-cabin.html" class="sublink-title">
+                                                                <a href="shed-deluxe-cabin.php" class="sublink-title">
                                                                     <img src="image/csb/img/Cabins/barn8white.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Deluxe Cabin</span>
                                                                 </a>
                                                             </li>
                                                             <li class="submenu-li">
-                                                                <a href="shed-deluxe-lofted-barn-cabin.html" class="sublink-title">
+                                                                <a href="shed-deluxe-lofted-barn-cabin.php" class="sublink-title">
                                                                     <img src="image/csb/img/Cabins/Lofted_Deluxe_Barn_Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Lofted Deluxe Cabin</span>
                                                                 </a>
                                                             </li>
                                                             <li class="submenu-li">
-                                                                <a href="shed-pioneer-cabins.html" class="sublink-title">
+                                                                <a href="shed-pioneer-cabins.php" class="sublink-title">
                                                                     <img src="image/csb/img/Cabins/Pioneer_Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Pioneer Cabin</span>
                                                                 </a>
                                                             </li>
                                                             <li class="submenu-li">
-                                                                <a href="shed-lofted-pioneer-cabins.html" class="sublink-title">
+                                                                <a href="shed-lofted-pioneer-cabins.php" class="sublink-title">
                                                                     <img src="image/csb/img/Cabins/Lofted_Pioneer_Cabin.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Lofted Pioneer Cabin</span>
                                                                 </a>
@@ -255,13 +215,13 @@
                                                         </a>
                                                         <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                             <li class="submenu-li">
-                                                                <a href="shed-garages.html" class="sublink-title">
+                                                                <a href="shed-garages.php" class="sublink-title">
                                                                     <img src="image/csb/img/Garages/Garage.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Garage</span>
                                                                 </a>
                                                             </li>
                                                             <li class="submenu-li">
-                                                                <a href="shed-lofted-barn-garages.html" class="sublink-title">
+                                                                <a href="shed-lofted-barn-garages.php" class="sublink-title">
                                                                     <img src="image/csb/img/Garages/Lofted_Garage.jpg" alt="menu-image" style="width: 53px;">
                                                                     <span>Lofted Garage</span>
                                                                 </a>
@@ -269,31 +229,31 @@
                                                         </ul>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="shed-tool.html" class="link-title">
+                                                        <a href="shed-tool.php" class="link-title">
                                                             <img src="image/csb/img/sm_toolshed_icon.jpg" alt="menu-image" style="width: 52px;">
                                                             <span>Tool Sheds</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="shed-sun-studios.html" class="link-title">
+                                                        <a href="shed-sun-studios.php" class="link-title">
                                                             <img src="image/csb/img/sm_sunstudio_icon.jpg" alt="menu-image" style="width: 51px;">
                                                             <span>Sun Studios</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="shed-cabanas.html" class="link-title">
+                                                        <a href="shed-cabanas.php" class="link-title">
                                                             <img src="image/csb/img/sm_cabana_icon.jpg" alt="menu-image" style="width: 55px;">
                                                             <span>Cabanas</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="shed-livestock-shelters.html" class="link-title">
+                                                        <a href="shed-livestock-shelters.php" class="link-title">
                                                             <img src="image/csb/img/sm_animalshelter_icon.jpg" alt="menu-image" style="width: 55px;">
                                                             <span>Animal Shelters</span>
                                                         </a>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="shed-budget.html" class="link-title">
+                                                        <a href="shed-budget.php" class="link-title">
                                                             <img src="image/csb/img/Budget_icon.jpg" alt="menu-image" style="width: 55px;">
                                                             <span>Budget Series</span>
                                                         </a>
@@ -308,7 +268,7 @@
                                         <div class="mainwrap">
                                             <ul class="main-menu">
                                                 <li class="menu-link parent">
-                                                    <a href="about-us.html" class="link-title">
+                                                    <a href="about-us.php" class="link-title">
                                                         <span class="sp-link-title">ABOUT US</span>
                                                     </a>
                                                 </li>
@@ -323,15 +283,15 @@
                                                     </a>
                                                     <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                         <li class="submenu-li">
-                                                            <a href="materials.html" class="submenu-link">Materials</a>
+                                                            <a href="materials.php" class="submenu-link">Materials</a>
                                                         </li>
                                                         <li class="submenu-li">
-                                                            <a href="options.html" class="submenu-link">Options</a>
+                                                            <a href="options.php" class="submenu-link">Options</a>
                                                         </li>
                                                     </ul>
                                                 </li>
 												<li class="menu-link">
-                                                    <a href="rent-to-own.html" class="link-title">
+                                                    <a href="rent-to-own.php" class="link-title">
                                                         <span class="sp-link-title">Rent-To-Own</span>
                                                     </a>
                                                 </li>
@@ -346,19 +306,19 @@
                                                     </a>
                                                     <ul class="dropdown-submenu sub-menu collapse" id="collapse-top-home">
                                                         <li class="submenu-li">
-                                                            <a href="delivery.html" class="submenu-link">Delivery</a>
+                                                            <a href="delivery.php" class="submenu-link">Delivery</a>
                                                         </li>
                                                         <li class="submenu-li">
-                                                            <a href="dimensions.html" class="submenu-link">Dimensions</a>
+                                                            <a href="dimensions.php" class="submenu-link">Dimensions</a>
                                                         </li>
                                                         <li class="submenu-li">
-                                                            <a href="engineer-certified.html" class="submenu-link">Engineer Certified</a>
+                                                            <a href="engineer-certified.php" class="submenu-link">Engineer Certified</a>
                                                         </li>
                                                         <li class="submenu-li">
-                                                            <a href="warranty.html" class="submenu-link">Warranty</a>
+                                                            <a href="warranty.php" class="submenu-link">Warranty</a>
                                                         </li>
                                                         <li class="submenu-li">
-                                                            <a href="dealer.html" class="submenu-link">Became a Dealer</a>
+                                                            <a href="dealer.php" class="submenu-link">Became a Dealer</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -397,7 +357,7 @@
                                             <div class="mainwrap">
                                                 <ul class="main-menu">
                                                     <li class="menu-link">
-                                                        <a href="about-us.html" class="link-title">
+                                                        <a href="about-us.php" class="link-title">
                                                             <span class="sp-link-title">About us</span>
                                                         </a>
                                                     </li>
@@ -412,15 +372,15 @@
                                                         </a>
                                                         <ul class="dropdown-submenu banner-menu collapse" id="collapse-mega-menu1">
                                                             <li class="menu-banner">
-                                                                <a href="materials.html" class="menu-banner-title"><span>Material</span></a>
+                                                                <a href="materials.php" class="menu-banner-title"><span>Material</span></a>
                                                             </li>
                                                             <li class="menu-banner">
-                                                                <a href="options.html" class="menu-banner-title"><span>Options</span></a>
+                                                                <a href="options.php" class="menu-banner-title"><span>Options</span></a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-link">
-                                                        <a href="rent-to-own.html" class="link-title">
+                                                        <a href="rent-to-own.php" class="link-title">
                                                             <span class="sp-link-title">rent-to-own</span>
                                                         </a>
                                                     </li>
@@ -435,19 +395,19 @@
                                                         </a>
                                                         <ul class="dropdown-submenu banner-menu collapse" id="collapse-mega-menu">
                                                             <li class="menu-banner">
-                                                                <a href="delivery.html" class="menu-banner-title"><span>Delivery</span></a>
+                                                                <a href="delivery.php" class="menu-banner-title"><span>Delivery</span></a>
                                                             </li>
                                                             <li class="menu-banner">
-                                                                <a href="dimensions.html" class="menu-banner-title"><span>Dimensions</span></a>
+                                                                <a href="dimensions.php" class="menu-banner-title"><span>Dimensions</span></a>
                                                             </li>
                                                             <li class="menu-banner">
-                                                                <a href="engineer-certified.html" class="menu-banner-title"><span>Engineer Certified</span></a>
+                                                                <a href="engineer-certified.php" class="menu-banner-title"><span>Engineer Certified</span></a>
                                                             </li>
                                                             <li class="menu-banner">
-                                                                <a href="warranty.html" class="menu-banner-title"><span>Warranty</span></a>
+                                                                <a href="warranty.php" class="menu-banner-title"><span>Warranty</span></a>
                                                             </li>
                                                             <li class="menu-banner">
-                                                                <a href="dealer.html" class="menu-banner-title"><span>Became a dealer</span></a>
+                                                                <a href="dealer.php" class="menu-banner-title"><span>Became a dealer</span></a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -476,76 +436,76 @@
                 <ul class="cart-item-loop">
                     <li class="cart-item">
                         <div class="cart-img">
-                            <a href="product-style-3.html">
+                            <a href="product-style-3.php">
                                 <img src="image/cart-img.jpg" alt="cart-image" class="img-fluid">
                             </a>
                         </div>
                         <div class="cart-title">
-                            <h6><a href="product-style-3.html">Fresh apple 5kg</a></h6>
+                            <h6><a href="product-style-3.php">Fresh apple 5kg</a></h6>
                             <div class="cart-pro-info">
                                 <div class="cart-qty-price">
                                     <span class="quantity">1 x </span>
                                     <span class="price-box">$250.00 USD</span>
                                 </div>
                                 <div class="delete-item-cart">
-                                    <a href="empty-cart.html"><i class="icon-trash icons"></i></a>
+                                    <a href="empty-cart.php"><i class="icon-trash icons"></i></a>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li class="cart-item">
                         <div class="cart-img">
-                            <a href="product-style-3.html">
+                            <a href="product-style-3.php">
                                 <img src="image/cart-img02.jpg" alt="cart-image" class="img-fluid">
                             </a>
                         </div>
                         <div class="cart-title">
-                            <h6><a href="product-style-3.html">Natural grassbean 4kg</a></h6>
+                            <h6><a href="product-style-3.php">Natural grassbean 4kg</a></h6>
                             <div class="cart-pro-info">
                                 <div class="cart-qty-price">
                                     <span class="quantity">1 x </span>
                                     <span class="price-box">$300.00 USD</span>
                                 </div>
                                 <div class="delete-item-cart">
-                                    <a href="empty-cart.html"><i class="icon-trash icons"></i></a>
+                                    <a href="empty-cart.php"><i class="icon-trash icons"></i></a>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li class="cart-item">
                         <div class="cart-img">
-                            <a href="product-style-3.html">
+                            <a href="product-style-3.php">
                                 <img src="image/cart-img03.jpg" alt="cart-image" class="img-fluid">
                             </a>
                         </div>
                         <div class="cart-title">
-                            <h6><a href="product-style-3.html">Organic coconut juice 5ltr</a></h6>
+                            <h6><a href="product-style-3.php">Organic coconut juice 5ltr</a></h6>
                             <div class="cart-pro-info">
                                 <div class="cart-qty-price">
                                     <span class="quantity">1 x </span>
                                     <span class="price-box">$250.00 USD</span>
                                 </div>
                                 <div class="delete-item-cart">
-                                    <a href="empty-cart.html"><i class="icon-trash icons"></i></a>
+                                    <a href="empty-cart.php"><i class="icon-trash icons"></i></a>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li class="cart-item">
                         <div class="cart-img">
-                            <a href="product-style-3.html">
+                            <a href="product-style-3.php">
                                 <img src="image/cart-img04.jpg" alt="cart-image" class="img-fluid">
                             </a>
                         </div>
                         <div class="cart-title">
-                            <h6><a href="product-style-3.html">Orange juice 5ltr</a></h6>
+                            <h6><a href="product-style-3.php">Orange juice 5ltr</a></h6>
                             <div class="cart-pro-info">
                                 <div class="cart-qty-price">
                                     <span class="quantity">1 x </span>
                                     <span class="price-box">$350.00 USD</span>
                                 </div>
                                 <div class="delete-item-cart">
-                                    <a href="empty-cart.html"><i class="icon-trash icons"></i></a>
+                                    <a href="empty-cart.php"><i class="icon-trash icons"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -560,8 +520,8 @@
                     </li>
                     <li class="mini-cart-btns">
                         <div class="cart-btns">
-                            <a href="cart-3.html" class="btn btn-style2">View cart</a>
-                            <a href="checkout-3.html" class="btn btn-style2">Checkout</a>
+                            <a href="cart-3.php" class="btn btn-style2">View cart</a>
+                            <a href="checkout-3.php" class="btn btn-style2">Checkout</a>
                         </div>
                     </li>
                 </ul>
@@ -578,7 +538,7 @@
                                         <div class="search-content">
                                             <div class="search-engine">
                                                 <input type="text" name="search" placeholder="Search Product.">
-                                                <a href="search.html" class="search-btn"><i class="ion-ios-search-strong"></i></a>
+                                                <a href="search.php" class="search-btn"><i class="ion-ios-search-strong"></i></a>
                                             </div>
                                             <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><i class="ion-close-round"></i></button>
                                         </div>
@@ -608,7 +568,7 @@
                                                 <div class="slide-c-1 h-s-content">
                                                     <span class="slider-name">Since 2002</span>
                                                     <h1>Built in ALABAMA<br> for <span class="slider-offer">ALABAMA</span></h1>
-                                                    <a href="grid-list.html" class="btn btn-style1">More Information</a>
+                                                    <a href="grid-list.php" class="btn btn-style1">More Information</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -617,7 +577,7 @@
                                                 <div class="slide-c-2 h-s-content">
                                                     <span class="slider-name">Cotton State Barns</span>
                                                     <h1>See The<br>Cotton State Barns<br><span class="slider-offer">Difference</span></h1>
-                                                    <a href="grid-list.html" class="btn btn-style1">More Information</a>
+                                                    <a href="grid-list.php" class="btn btn-style1">More Information</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -626,7 +586,7 @@
                                                 <div class="slide-c-3 h-s-content">
                                                     <span class="slider-name">Engineer Certified</span>
                                                     <h1>High Quality,<br><span class="slider-offer">Long-Lasting</span><br>Storage Buildings</h1>
-                                                    <a href="grid-list.html" class="btn btn-style1">More Information</a>
+                                                    <a href="grid-list.php" class="btn btn-style1">More Information</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -702,20 +662,20 @@
                                         <div class="left-banner-content">
                                             <span>View Information on</span>
                                             <h2>Dimensions</h2>
-                                            <a href="dimensions.html" class="btn btn-style3">VIEW</a>
+                                            <a href="dimensions.php" class="btn btn-style3">VIEW</a>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- left banner-2 start -->
                                 <div class="left-banner section1-t-padding">
                                     <div class="l-banner">
-                                        <a href="rent-to-own.html">
+                                        <a href="rent-to-own.php">
                                             <img src="image/left-banner2.jpg" class="img-fluid" alt="left-banner">
                                         </a>
                                         <div class="left-banner-content">
                                             <span>Rent-To-Own</span>
                                             <h2>36, 48, &amp; 60 month contract options</h2>
-                                            <a href="rent-to-own.html" class="btn btn-style3">VIEW</a>
+                                            <a href="rent-to-own.php" class="btn btn-style3">VIEW</a>
                                         </div>
                                     </div>
                                 </div>
@@ -723,13 +683,13 @@
                                 <!-- left banner-2 start -->
                                 <div class="left-banner section1-t-padding">
                                     <div class="l-banner">
-                                        <a href="delivery.html">
+                                        <a href="delivery.php">
                                             <img src="image/left-banner3.jpg" class="img-fluid" alt="left-banner">
                                         </a>
                                         <div class="left-banner-content">
                                             <span>No ground prep is necessary</span>
                                             <h2>If site is no more than 3’ out of level in any direction.</h2>
-                                            <a href="delivery.html" class="btn btn-style3">Delivery</a>
+                                            <a href="delivery.php" class="btn btn-style3">Delivery</a>
                                         </div>
                                     </div>
                                 </div>
@@ -737,13 +697,13 @@
 								<!-- left banner-2 start -->
                                 <div class="left-banner section1-t-padding">
                                     <div class="l-banner">
-                                        <a href="warranty.html">
+                                        <a href="warranty.php">
                                             <img src="image/left-banner4.jpg" class="img-fluid" alt="left-banner">
                                         </a>
                                         <div class="left-banner-content">
                                             <span>Warranty Coverage</span>
                                             <h2>Includes material defects and the craftsmanship of our products on every new barn we sell.</h2>
-                                            <a href="warranty.html" class="btn btn-style3">Warranty</a>
+                                            <a href="warranty.php" class="btn btn-style3">Warranty</a>
                                         </div>
                                     </div>
                                 </div>
@@ -761,52 +721,52 @@
                                                 <div class="tab-product">
                                                     <div class="tred-pro">
                                                         <div class="tr-pro-img">
-                                                            <a href="product-style-3.html">
+                                                            <a href="product-style-3.php">
                                                                 <img src="image/csb/smooth.jpg" alt="pro-img1" class="img-fluid">
                                                             </a>
                                                         </div>
                                                     </div>
                                                     <div class="tab-caption">
-                                                        <h3><a href="product-style-3.html">5/8” Smooth Tongue<br>and Groove</a></h3>
+                                                        <h3><a href="product-style-3.php">5/8” Smooth Tongue<br>and Groove</a></h3>
                                                     </div>
                                                 </div>
                                             
                                                 <div class="tab-product">
                                                     <div class="tred-pro">
                                                         <div class="tr-pro-img">
-                                                            <a href="product-style-3.html">
+                                                            <a href="product-style-3.php">
                                                                 <img src="image/csb/treated.jpg" alt="pro-img1" class="img-fluid">
                                                             </a>
                                                         </div>
                                                     </div>
                                                     <div class="tab-caption">
-                                                        <h3><a href="product-style-3.html">5/8” Treated Plywood</a></h3>
+                                                        <h3><a href="product-style-3.php">5/8” Treated Plywood</a></h3>
                                                     </div>
                                                 </div>
                                             
                                                 <div class="tab-product">
                                                     <div class="tred-pro">
                                                         <div class="tr-pro-img">
-                                                            <a href="product-style-3.html">
+                                                            <a href="product-style-3.php">
                                                                 <img src="image/csb/smooth.jpg" alt="pro-img1" class="img-fluid">
                                                             </a>
                                                         </div>
                                                     </div>
                                                     <div class="tab-caption">
-                                                        <h3><a href="product-style-3.html">3/4” Smooth Tongue<br>and Groove</a></h3>
+                                                        <h3><a href="product-style-3.php">3/4” Smooth Tongue<br>and Groove</a></h3>
                                                     </div>
                                                 </div>
                                             
                                                 <div class="tab-product">
                                                     <div class="tred-pro">
                                                         <div class="tr-pro-img">
-                                                            <a href="product-style-3.html">
+                                                            <a href="product-style-3.php">
                                                                 <img src="image/csb/treated.jpg" alt="pro-img1" class="img-fluid">
                                                             </a>
                                                         </div>
                                                     </div>
                                                     <div class="tab-caption">
-                                                        <h3><a href="product-style-3.html">3/4” Treated Plywood</a></h3>
+                                                        <h3><a href="product-style-3.php">3/4” Treated Plywood</a></h3>
                                                     </div>
                                                 </div>
                                             </div>
@@ -851,7 +811,7 @@
                                 <!-- grid banner start -->
                                 <div class="organic-food-fresh-banner">
                                     <div class="offer-banner">
-                                        <a href="about-us.html" class="banner-hover">
+                                        <a href="about-us.php" class="banner-hover">
                                             <img src="image/home3-banner.jpg" alt="offer-banner" class="img-fluid">
                                         </a>
                                         <div class="banner-content">
@@ -862,7 +822,7 @@
                                         </div>
                                     </div>
                                     <div class="offer-banner">
-                                        <a href="materials.html" class="banner-hover">
+                                        <a href="materials.php" class="banner-hover">
                                             <img src="image/home3-banner2.jpg" alt="offer-banner" class="img-fluid">
                                         </a>
                                         <div class="banner-content">
@@ -905,15 +865,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-cabin.html">
+                                                                    <a href="shed-cabin.php">
                                                                         <img src="image/csb/cabin_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-cabin.html">CABIN</a></h3>
-                                                                    <span class="new-price"><a href="shed-cabin.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-cabin.php">CABIN</a></h3>
+                                                                    <span class="new-price"><a href="shed-cabin.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -922,15 +882,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-lofted-barn-cabin.html">
+                                                                    <a href="shed-lofted-barn-cabin.php">
                                                                         <img src="image/csb/loftedcabin_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-lofted-barn-cabin.html">LOFTED CABIN</a></h3>
-                                                                    <span class="new-price"><a href="shed-lofted-barn-cabin.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-lofted-barn-cabin.php">LOFTED CABIN</a></h3>
+                                                                    <span class="new-price"><a href="shed-lofted-barn-cabin.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -939,15 +899,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-deluxe-cabin.html">
+                                                                    <a href="shed-deluxe-cabin.php">
                                                                         <img src="image/csb/pioneercabin_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-deluxe-cabin.html">DELUXE CABIN</a></h3>
-                                                                    <span class="new-price"><a href="shed-deluxe-cabin.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-deluxe-cabin.php">DELUXE CABIN</a></h3>
+                                                                    <span class="new-price"><a href="shed-deluxe-cabin.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -956,15 +916,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-pioneer-cabins.html">
+                                                                    <a href="shed-pioneer-cabins.php">
                                                                         <img src="image/csb/loftedpioneercabin_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-pioneer-cabins.html">DELUXE LOFTED CABIN</a></h3>
-                                                                    <span class="new-price"><a href="shed-pioneer-cabins.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-pioneer-cabins.php">DELUXE LOFTED CABIN</a></h3>
+                                                                    <span class="new-price"><a href="shed-pioneer-cabins.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -973,15 +933,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-pioneer-cabins.html">
+                                                                    <a href="shed-pioneer-cabins.php">
                                                                         <img src="image/csb/Grass Pioneer Cabin.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-pioneer-cabins.html">PIONEER CABIN</a></h3>
-                                                                    <span class="new-price"><a href="shed-pioneer-cabins.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-pioneer-cabins.php">PIONEER CABIN</a></h3>
+                                                                    <span class="new-price"><a href="shed-pioneer-cabins.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -990,15 +950,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-lofted-pioneer-cabins.html">
+                                                                    <a href="shed-lofted-pioneer-cabins.php">
                                                                         <img src="image/csb/deluxeloftedcabin_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-lofted-pioneer-cabins.html">LOFTED PIONEER CABIN</a></h3>
-                                                                    <span class="new-price"><a href="shed-lofted-pioneer-cabins.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-lofted-pioneer-cabins.php">LOFTED PIONEER CABIN</a></h3>
+                                                                    <span class="new-price"><a href="shed-lofted-pioneer-cabins.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1020,15 +980,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-barns.html">
+                                                                    <a href="shed-barns.php">
                                                                         <img src="image/pro/pro-img-4.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-barns.html">BARNS</a></h3>
-                                                                    <span class="new-price"><a href="shed-barns.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-barns.php">BARNS</a></h3>
+                                                                    <span class="new-price"><a href="shed-barns.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1037,15 +997,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-lofted-barns.html">
+                                                                    <a href="shed-lofted-barns.php">
                                                                         <img src="image/csb/loftedbarn_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-lofted-barns.html">LOFTED BARNS</a></h3>
-                                                                    <span class="new-price"><a href="shed-lofted-barns.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-lofted-barns.php">LOFTED BARNS</a></h3>
+                                                                    <span class="new-price"><a href="shed-lofted-barns.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1054,15 +1014,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-side-lofted-barns.html">
+                                                                    <a href="shed-side-lofted-barns.php">
                                                                         <img src="image/csb/sideloftedbarn_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-side-lofted-barns.html">SIDE LOFTED BARNS</a></h3>
-                                                                    <span class="new-price"><a href="shed-side-lofted-barns.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-side-lofted-barns.php">SIDE LOFTED BARNS</a></h3>
+                                                                    <span class="new-price"><a href="shed-side-lofted-barns.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1084,15 +1044,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-utility.html">
+                                                                    <a href="shed-utility.php">
                                                                         <img src="image/csb/utility_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-                                                                    <h3><a href="shed-utility.html">UTILITY</a></h3>
-                                                                    <span class="new-price"><a href="shed-utility.html">View More &rsaquo;</a></span>
+                                                                    <h3><a href="shed-utility.php">UTILITY</a></h3>
+                                                                    <span class="new-price"><a href="shed-utility.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1101,15 +1061,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-garden.html">
+                                                                    <a href="shed-garden.php">
                                                                         <img src="image/csb/gardenshed_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-																<h3><a href="shed-garden.html">GARDEN SHED</a></h3>
-                                                                    <span class="new-price"><a href="shed-garden.html">View More &rsaquo;</a></span>
+																<h3><a href="shed-garden.php">GARDEN SHED</a></h3>
+                                                                    <span class="new-price"><a href="shed-garden.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1118,15 +1078,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-cottage.html">
+                                                                    <a href="shed-cottage.php">
                                                                         <img src="image/csb/cottageshed_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-																<h3><a href="shed-cottage.html">COTTAGE SHED</a></h3>
-                                                                    <span class="new-price"><a href="shed-cottage.html">View More &rsaquo;</a></span>
+																<h3><a href="shed-cottage.php">COTTAGE SHED</a></h3>
+                                                                    <span class="new-price"><a href="shed-cottage.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1135,15 +1095,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-tool.html">
+                                                                    <a href="shed-tool.php">
                                                                         <img src="image/csb/toolshed_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-																<h3><a href="shed-tool.html">TOOL SHED</a></h3>
-                                                                    <span class="new-price"><a href="shed-tool.html">View More &rsaquo;</a></span>
+																<h3><a href="shed-tool.php">TOOL SHED</a></h3>
+                                                                    <span class="new-price"><a href="shed-tool.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1183,15 +1143,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-garages.html">
+                                                                    <a href="shed-garages.php">
                                                                         <img src="image/csb/garage_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-																<h3><a href="shed-garages.html">GARAGE</a></h3>
-                                                                    <span class="new-price"><a href="shed-garages.html">View More &rsaquo;</a></span>
+																<h3><a href="shed-garages.php">GARAGE</a></h3>
+                                                                    <span class="new-price"><a href="shed-garages.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1200,15 +1160,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-lofted-barn-garages.html">
+                                                                    <a href="shed-lofted-barn-garages.php">
                                                                         <img src="image/csb/loftedgarage_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-																<h3><a href="shed-lofted-barn-garages.html">LOFTED GARAGE</a></h3>
-                                                                    <span class="new-price"><a href="shed-lofted-barn-garages.html">View More &rsaquo;</a></span>
+																<h3><a href="shed-lofted-barn-garages.php">LOFTED GARAGE</a></h3>
+                                                                    <span class="new-price"><a href="shed-lofted-barn-garages.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1230,15 +1190,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-cabanas.html">
+                                                                    <a href="shed-cabanas.php">
                                                                         <img src="image/csb/cabana_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-																<h3><a href="shed-cabanas.html">CABANA</a></h3>
-                                                                    <span class="new-price"><a href="shed-cabanas.html">View More &rsaquo;</a></span>
+																<h3><a href="shed-cabanas.php">CABANA</a></h3>
+                                                                    <span class="new-price"><a href="shed-cabanas.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1247,15 +1207,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-livestock-shelters.html">
+                                                                    <a href="shed-livestock-shelters.php">
                                                                         <img src="image/csb/livestock_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-																<h3><a href="shed-livestock-shelters.html">LIVESTOCK SHELTER</a></h3>
-                                                                    <span class="new-price"><a href="shed-livestock-shelters.html">View More &rsaquo;</a></span>
+																<h3><a href="shed-livestock-shelters.php">LIVESTOCK SHELTER</a></h3>
+                                                                    <span class="new-price"><a href="shed-livestock-shelters.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1264,15 +1224,15 @@
                                                         <div class="tab-product">
                                                             <div class="tred-pro">
                                                                 <div class="tr-pro-img">
-                                                                    <a href="shed-budget.html">
+                                                                    <a href="shed-budget.php">
                                                                         <img src="image/csb/budget_1.jpg" alt="pro-img1" class="img-fluid">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class="tab-caption">
                                                                 <div class="pro-price">
-																<h3><a href="shed-budget.html">BUDGET SERIES</a></h3>
-                                                                    <span class="new-price"><a href="shed-budget.html">View More &rsaquo;</a></span>
+																<h3><a href="shed-budget.php">BUDGET SERIES</a></h3>
+                                                                    <span class="new-price"><a href="shed-budget.php">View More &rsaquo;</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1292,13 +1252,13 @@
                                 <!-- full banner start -->
                                 <div class="full-banner section1-t-padding">
                                     <div class="banner-main">
-                                        <a href="options.html" class="banner-hover">
+                                        <a href="options.php" class="banner-hover">
                                             <img src="image/full-banner.jpg" class="img-fluid" alt="banner-image">
                                         </a>
                                         <div class="full-banner-conten">
                                             <span>A wide selection of interior and exterior options</span>
                                             <h3>Customize Your Shed</h3>
-                                            <a href="options.html" class="btn btn-style3">VIEW OPTIONS</a>
+                                            <a href="options.php" class="btn btn-style3">VIEW OPTIONS</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1306,7 +1266,7 @@
                                 <!-- full banner start -->
                                 <div class="full-banner section1-t-padding">
                                     <div class="banner-main">
-                                        <a href="product-style-3.html" class="banner-hover brochure">
+                                        <a href="product-style-3.php" class="banner-hover brochure">
                                             <img src="image/full-banner3.jpg" class="img-fluid" alt="banner-image">
                                         </a>
                                         <div class="full-banner-conten brochure-banner-content">
@@ -1538,7 +1498,7 @@
                                         <div class="items">
                                              <div class="tred-pro">
                                                 <div class="tr-pro-img">
-                                                    <a href="product-style-3.html">
+                                                    <a href="product-style-3.php">
                                                         <img class="img-fluid" src="image/csb/sq_badgeicon_1.jpg" alt="pro-img1">
                                                     </a>
                                                 </div>
@@ -1547,7 +1507,7 @@
                                           <div class="items">
                                              <div class="tred-pro">
                                                 <div class="tr-pro-img">
-                                                    <a href="product-style-3.html">
+                                                    <a href="product-style-3.php">
                                                         <img class="img-fluid" src="image/csb/sq_badgeicon_2.jpg" alt="pro-img1">
                                                     </a>
                                                 </div>
@@ -1556,7 +1516,7 @@
 										<div class="items">
                                              <div class="tred-pro">
                                                 <div class="tr-pro-img">
-                                                    <a href="product-style-3.html">
+                                                    <a href="product-style-3.php">
                                                         <img class="img-fluid" src="image/csb/sq_badgeicon_3.jpg" alt="pro-img1">
                                                     </a>
                                                 </div>
@@ -1565,7 +1525,7 @@
 										<div class="items">
                                              <div class="tred-pro">
                                                 <div class="tr-pro-img">
-                                                    <a href="product-style-3.html">
+                                                    <a href="product-style-3.php">
                                                         <img class="img-fluid" src="image/csb/sq_badgeicon_4.jpg" alt="pro-img1">
                                                     </a>
                                                 </div>
@@ -1574,7 +1534,7 @@
 										<div class="items">
                                              <div class="tred-pro">
                                                 <div class="tr-pro-img">
-                                                    <a href="product-style-3.html">
+                                                    <a href="product-style-3.php">
                                                         <img class="img-fluid" src="image/csb/sq_badgeicon_5.jpg" alt="pro-img1">
                                                     </a>
                                                 </div>
@@ -1592,133 +1552,6 @@
 					</div>
 				</div>			
 		</section>							
-
-        
-        <!-- footer start -->
-        <section class="footer3 section0-tb-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="home3-footer">
-                            <div class="f-logo">
-                                <ul class="footer-ul">
-                                    <li class="footer-li footer-logo">
-                                        <a href="/">
-                                            <img class="img-fluid" src="image/logo2.png" alt="">
-                                        </a>
-                                    </li>
-                                   <!----- <li class="footer-li footer-address">
-                                        <ul class="foote-map">
-                                            <li class="footer-icon">
-                                                <i class="ion-ios-location"></i>
-                                            </li>
-                                            <li>
-                                                <span>401 Broadway 24th floor</span>
-                                                <span>Near ant mall cross road</span>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="footer-li footer-contact">
-                                        <ul class="footer-num">
-                                            <li class="footer-icon">
-                                                <i class="ion-ios-telephone"></i>
-                                            </li>
-                                            <li class="footer-info">
-                                                <a href="tel:1-800-222-000">Phone: 1-800-222-000</a>
-                                                <a href="mailto:demo@demo.com">Email: demo@demo.com</a>
-                                            </li>
-                                        </ul>
-                                    </li>---->
-                                </ul>
-                            </div>
-                            <div class="footer-bottom">
-                                <div class="footer-link" id="footer-accordian">
-                                    <div class="f-link">
-                                        <h2 class="h-footer">STYLES</h2>
-                                        <a href="#services" data-bs-toggle="collapse" class="h-footer">
-                                            <span>Privacy &amp; terms</span>
-                                            <i class="fa fa-angle-down"></i>
-                                        </a>
-                                        <ul class="f-link-ul collapse" id="services" data-bs-parent="#footer-accordian">
-                                            <li class="f-link-ul-li"><a href="shed-barns.html">Barn</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-lofted-barns.html">Lofted Barn</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-side-lofted-barns.html">Side Lofted Barn</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-utility.html">Utility</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-cottage.html">Cottage</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-garden.html">Garden</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-cabin.html">Cabin</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-lofted-barn-cabin.html">Lofted Cabin</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-deluxe-cabin.html">Deluxe Cabin</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-budget.html">Budget Series</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="f-link">
-                                        <h2 class="h-footer">&nbsp;</h2>
-                                        <ul class="f-link-ul collapse" id="services" data-bs-parent="#footer-accordian">
-                                            <li class="f-link-ul-li"><a href="shed-deluxe-lofted-barn-cabin.html">Lofted Deluxe Cabin</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-pioneer-cabins.html">Pioneer Cabin</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-lofted-pioneer-cabins.html">LoftedPioneer Cabin</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-garages.html">Garage</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-lofted-barn-garages.html">Lofted Garage</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-tool.html">Tool</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-sun-studios.html">Sun Studios</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-cabanas.html">Canbanas</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-livestock-shelters.html">Livestock</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="f-link">
-                                        <h2 class="h-footer">CUSTOMIZATION</h2>
-                                        <a href="#privacy" data-bs-toggle="collapse" class="h-footer">
-                                            <span>My account</span>
-                                            <i class="fa fa-angle-down"></i>
-                                        </a>
-                                        <ul class="f-link-ul collapse" id="privacy" data-bs-parent="#footer-accordian">
-                                            <li class="f-link-ul-li"><a href="materials.html">Materials</a></li>
-                                            <li class="f-link-ul-li"><a href="options.html">Options</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="f-link">
-                                        <h2 class="h-footer">MORE DETAILS</h2>
-                                        <a href="#account" data-bs-toggle="collapse" class="h-footer">
-                                            <span>Menu title</span>
-                                            <i class="fa fa-angle-down"></i>
-                                        </a>
-                                        <ul class="f-link-ul collapse" id="account" data-bs-parent="#footer-accordian">
-                                            <li class="f-link-ul-li"><a href="rent-to-own.html">Rent-To-Own</a></li>
-                                            <li class="f-link-ul-li"><a href="delivery.html">Delivery</a></li>
-                                            <li class="f-link-ul-li"><a href="dimensions.html">Dimension</a></li>
-                                            <li class="f-link-ul-li"><a href="engineer-certified.html">Engineer Certified</a></li>
-                                            <li class="f-link-ul-li"><a href="dealer.html">Became a dealer</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!---  <div class="footer-deal">
-                                <div class="f-deal-content">
-                                    <h2>Get the latest deals</h2>
-                                    <p>Ana receive $20 coupon for first shopping</p>
-                                </div>
-                              <div class="footer-search">
-                                    <form>
-                                        <input type="text" name="email" placeholder="Enter your emain address">
-                                        <a href="javascript:void(0)" class="btn btn-style1"><i class="ion-paper-airplane"></i></a>
-                                    </form>
-                                    <ul class="f-bottom">
-                                        <li class="f-social">
-                                            <a href="https://www.whatsapp.com/" class="f-icn-link"><i class="fa fa-whatsapp"></i></a>
-                                            <a href="https://www.facebook.com/" class="f-icn-link"><i class="fa fa-facebook-f"></i></a>
-                                            <a href="https://twitter.com/" class="f-icn-link"><i class="fa fa-twitter"></i></a>
-                                            <a href="https://www.instagram.com/" class="f-icn-link"><i class="fa fa-instagram"></i></a>
-                                            <a href="https://www.pinterest.com/" class="f-icn-link"><i class="fa fa-pinterest-p"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> ---->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <?php include 'footer.php'; ?>
         
