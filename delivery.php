@@ -130,6 +130,9 @@
         <!-- custom -->
         <script src="js/custom.js"></script>
 
+		<!-- Dealer Locator -->
+		<script src="js/dealer-locater.js"></script>
+
         <script>
             $(".main-wrap").hide();
             $(".vegamenu-title").click(function() {
