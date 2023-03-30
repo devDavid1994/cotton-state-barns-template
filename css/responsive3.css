@@ -134,6 +134,9 @@ idap-pro css
     .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link a.link-title{
         padding: 6px 10px;
     }
+
+    .link-title.dropdown-toggle { display:none !important; }
+
     /* megamenu */
     .megamenu-content{
         width: 75%;
@@ -504,12 +507,13 @@ idap-pro css
         opacity: 1;
         visibility: visible;
     }
-    .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu.collapse:not(.show){
+    /*.vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu.collapse:not(.show){
         display: none;
     }
     .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu li.left-menu-image{
         display: none;
     }
+
     .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu li.submenu-li{
         padding: 0px;
         border-top: 2px solid #295129;
@@ -523,7 +527,7 @@ idap-pro css
     .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu li.submenu-li ul.submenu-megamenu-link li{
         padding: 9px 30px;
         border-top: 2px solid #295129;
-    }
+    }*/
     .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu li.submenu-li ul.submenu-megamenu-link{
         max-height: 129px;
         overflow: auto;

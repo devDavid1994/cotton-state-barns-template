@@ -540,3 +540,12 @@ svg image {
 .tred-pro .tr-pro-img a {
     text-align: center;
 }
+
+
+.inside-brochure-btn {
+    width:95%;
+    margin:5px;
+    font-size:15px;
+    font-weight:400;
+    line-height:40px;
+}

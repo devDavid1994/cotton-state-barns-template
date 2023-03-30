@@ -2,57 +2,107 @@
 //const site = 'https://test.systemavo.com';
 const site = 'https://test.systemavo.com';
 
-function getClosestDealer(position)
-{
-	var url = site + '/api/get_closest_dealership/';
-	var lat = position.coords.latitude;
-	var lng = position.coords.longitude;
-//           lat = 39.772401; lng = -89.63333;
-	$.get(url + lat + '/' + lng + '/1', function(res, status){
-		if (status == 'success' && res.success) {
-			$('#dealer_info').css('display', 'block');
-			$('#dealer_name').text(res.data.name + ', ' + res.data.state);
-			$('#dealer_addr').text(res.data.address + ' ' + res.data.city  + ' ' + res.data.state);
-			$('#dealer_phone').text(res.data.phone);
-		} else {
-			$('#dealer_name').text('No dealer found.');
-			$('#dealer_info').css('display', 'none');
-		}
-	});
-}
+$('document').ready(function(){
 
-$(function(){
 	$('#openLocationChange').click(function() {
 		$('#changelocalModal').modal('show');
 	});
 
-	$('#changeLocationBnt').click(function(){
-		var zip =  $('#zipcode').val();
+	$('#changeLocationBnt').click(changeLocation);
 
-		var url = site + '/api/dealershiplocater/';
+	if (navigator.geolocation && !dealerInfo) {
+		navigator.geolocation.getCurrentPosition(getClosestDealer);
+	}
+});
 
-		if (zip != '') {
-			$.get(url + zip + '/50/1', function(res, status){
+function changeLocation()
+{
+	var zip =  $('#zipcode').val();
 
-				console.log(res);
+	if(!zip) { alert('Please enter a zipcode.'); return; }
 
-				if (status == 'success' && res.success) {
+	$.ajax({
+		type: "POST",
+		url: '/includes/change-dealership.php',
+		data: { zip: zip },
+		success: function (res, status) {
+
+			console.log(res);
+
+			if (status == 'success' && res.success) {
+				$('#dealer_info').removeClass('hide');
+				$('#dealer_name').text(res.data[0].name + ', ' + res.data[0].state);
+				$('#dealer_addr').text(res.data[0].address + ' ' + res.data[0].city  + ' ' + res.data[0].state);
+				$('#dealer_phone').text(res.data[0].phone);
+				$('#dealer_id').val(data[0].id);
+			} else {
+				$('#dealer_name').text('No dealer found.');
+				$('#dealer_info').removeClass('hide');
+			}
+
+			$('#changelocalModal').modal('hide');
+		},
+		error: function() {
+
+		}
+	});
+
+
+
+
+	/*if (zip != '') {
+		$.get(url + zip + '/50/1', function(res, status){
+
+			if (status == 'success' && res.success) {
+				$('#dealer_info').removeClass('hide');
+				$('#dealer_name').text(res.data[0].name + ', ' + res.data[0].state);
+				$('#dealer_addr').text(res.data[0].address + ' ' + res.data[0].city  + ' ' + res.data[0].state);
+				$('#dealer_phone').text(res.data[0].phone);
+			} else {
+				$('#dealer_name').text('No dealer found.');
+				$('#dealer_info').removeClass('hide');
+			}
+
+			$('#changelocalModal').modal('hide');
+		});
+	}*/
+}
+
+function getClosestDealer(position) {
+
+	//Only load if the dealerInfo global is null
+	if(!dealerInfo)
+	{
+		// var url = site + '/api/get_closest_dealership/';
+		var lat = position.coords.latitude;
+		var lng = position.coords.longitude;
+
+		$.ajax({
+			type: "POST",
+			url: '/includes/load-closest-dealer.php',
+			data: {lat: lat, lng: lng},
+			success: function (res, status) {
+
+				if (status === 'success' && res.success) {
 					$('#dealer_info').css('display', 'block');
-					$('#dealer_name').text(res.data[0].name + ', ' + res.data[0].state);
-					$('#dealer_addr').text(res.data[0].address + ' ' + res.data[0].city  + ' ' + res.data[0].state);
-					$('#dealer_phone').text(res.data[0].phone);
+					$('#dealer_name').text(res.data.name + ', ' + res.data.state);
+					$('#dealer_addr').text(res.data.address + ' ' + res.data.city + ' ' + res.data.state);
+					$('#dealer_phone').text(res.data.phone);
+					$('#dealer_id').val(res.data.id);
 				} else {
 					$('#dealer_name').text('No dealer found.');
 					$('#dealer_info').css('display', 'none');
 				}
+			},
+			error: function () {
 
-				$('#changelocalModal').modal('hide');
-			});
-		}
-	});
-	if (navigator.geolocation) {
-		navigator.geolocation.getCurrentPosition(getClosestDealer);
-	} else {
-		alert("Geolocation is not supported by this browser.");
+			}
+		});
 	}
-});
+}
+
+function setDealerInfo()
+{
+
+}
+

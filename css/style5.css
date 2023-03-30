@@ -709,7 +709,8 @@ body.hidden {
     visibility: visible;
 }
 .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu li.submenu-li{
-    padding-right: 15px;
+    /*padding-right: 15px;*/
+    padding:6px 10px;
 }
 .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu li.submenu-li:last-child{
     padding-right: 0px;
@@ -723,6 +724,15 @@ body.hidden {
 .vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link ul.dropdown-submenu li.submenu-li ul.submenu-megamenu-link li:first-child{
     padding-top: 15px;
 }
+
+.vegamenu-content .vegamenu-head .main-wrap ul.vega-menu li.menu-link.active ul.dropdown-submenu
+{
+    top:0;
+    opacity: 1;
+    visibility:visible;
+}
+
+
 /* main-menu css */
 .megamenu-content{
     position: relative;

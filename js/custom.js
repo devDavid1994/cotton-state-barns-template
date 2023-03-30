@@ -3285,14 +3285,14 @@ var swiper = new Swiper('.swiper-container#home-slider-14', {
 
 // **************************************** home-15 ******************************************** 
     // service
-    var slides = document.querySelectorAll('.service-block.mobile ul.service-ul li.service-li');
-    var currentSlide = 0;
-    var slideInterval = setInterval(nextSlide, 3000);
-    function nextSlide(){
-    slides[currentSlide].className = 'service-li';
-        currentSlide = (currentSlide+1)%slides.length;
-        slides[currentSlide].className = 'service-li show';
-    }
+    // var slides = document.querySelectorAll('.service-block.mobile ul.service-ul li.service-li');
+    // var currentSlide = 0;
+    // var slideInterval = setInterval(nextSlide, 3000);
+    // function nextSlide(){
+    // slides[currentSlide].className = 'service-li';
+    //     currentSlide = (currentSlide+1)%slides.length;
+    //     slides[currentSlide].className = 'service-li show';
+    // }
 
     // slider
     var swiper = new Swiper('.swiper-container#home-slider-15', {
