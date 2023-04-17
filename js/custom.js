@@ -68,16 +68,22 @@ $(".mm-fullscreen-bg").on('click', function(){
 // header sticky
 ==============================================================*/
   $(window).scroll(function() {
-    var sticky = $('.header-main-area'),
     scroll = $(window).scrollTop();
+    var sticky = $('.header-main-area');
     var section = $('.first-content');
+
+    console.log(sticky);
+    console.log(section);
+
     if (scroll >= 50) {
       sticky.addClass('is-sticky');
       section.addClass('is-first');
+      if(isHomepage) { $('#vega-menu').removeClass('show'); }
     }
     else {
       sticky.removeClass('is-sticky');
       section.removeClass('is-first');
+      if(isHomepage) { $('#vega-menu').addClass('show'); }
     }
   });
 

@@ -13,6 +13,7 @@
         <!-- header start -->
         <?php include 'includes/site-header.php'; ?>
         <!-- header end -->
+
         <!--home page slider start-->
         <section class="home-slider-3 first-content">
             <div class="container">
@@ -28,7 +29,7 @@
                                                 <div class="slide-c-1 h-s-content">
                                                     <span class="slider-name">Since 2002</span>
                                                     <h1>Built in ALABAMA<br> for <span class="slider-offer">ALABAMA</span></h1>
-                                                    <a href="grid-list.html" class="btn btn-style1">More Information</a>
+                                                    <a href="/about-us.php" class="btn btn-style1">More Information</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -37,7 +38,7 @@
                                                 <div class="slide-c-2 h-s-content">
                                                     <span class="slider-name">Cotton State Barns</span>
                                                     <h1>See The<br>Cotton State Barns<br><span class="slider-offer">Difference</span></h1>
-                                                    <a href="grid-list.html" class="btn btn-style1">More Information</a>
+                                                    <a href="/about-us.php" class="btn btn-style1">More Information</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -46,7 +47,7 @@
                                                 <div class="slide-c-3 h-s-content">
                                                     <span class="slider-name">Engineer Certified</span>
                                                     <h1>High Quality,<br><span class="slider-offer">Long-Lasting</span><br>Storage Buildings</h1>
-                                                    <a href="grid-list.html" class="btn btn-style1">More Information</a>
+                                                    <a href="/about-us.php" class="btn btn-style1">More Information</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -295,7 +296,7 @@
                                 </div>
                                 <!-- grid banner end -->
                                 <!-- teb product start -->
-                                <div class="pro-tab section1-t-padding">
+                                <div id="our-barns" class="pro-tab section1-t-padding">
                                     <div class="section-title3">
                                         <h2><span>Our Barns</span></h2>
                                     </div>
@@ -1012,7 +1013,11 @@
 									
 					</div>
 				</div>			
-		</section>							
+		</section>
+
+		<script>
+			var isHomepage = true;
+		</script>
 
         <?php include 'includes/footer.php'; ?>
 

@@ -4,7 +4,7 @@
 </div>
 <div class="d-brochure-content">
 	<h3>Cotton State Barns</h3>
-	<span>Enter your full name and email address to view or download our dealer brochure.</span>
+	<span>Enter your full name and email address to view or download our dealer catalog.</span>
 </div>
 <form class="brochure-content">
 	<input type="text" name="fullName" id="name" placeholder="Your Full Name">

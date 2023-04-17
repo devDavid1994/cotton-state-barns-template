@@ -17,7 +17,7 @@
         <?php include 'includes/site-header.php'; ?>
         <!-- header end -->
 
-        <section class="section p-5 first-content">
+        <section class="section p-1 p-md-5 first-content">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -81,10 +81,10 @@
                                         centers are standard in all garage models).
                                     </p>
                                     <p>
-                                        <i class="fa fa-check-square-o"></i>We Offer Premium Sidings: LP Smartside, 29 Gauge Metal, or T1-11
+                                        <i class="fa fa-check-square-o"></i>We Offer Premium Sidings: LP Smartside, 29 Gauge Metal, or T1-11.
                                     </p>
                                     <p>
-                                        <i class="fa fa-check-square-o"></i>We Construct Durable Floorings: 5/8" Pressure-Treated Plywood or 5/8" Tongue-n-Groove Smooth Finish
+                                        <i class="fa fa-check-square-o"></i>We Construct Durable Floorings: 5/8" Pressure-Treated Plywood or 5/8" Tongue-n-Groove Smooth Finish.
                                     </p>
                                     <p>
                                         <i class="fa fa-check-square-o"></i>We Install Diamond-Plated Thresholds on Most Models.
@@ -124,10 +124,10 @@
         <?php include 'includes/footer.php'; ?>
 
         <script>
-            $(".main-wrap").hide();
-            $(".vegamenu-title").click(function() {
-                $(".main-wrap").slideToggle("fast");
-            });
+            // $(".main-wrap").hide();
+            // $(".vegamenu-title").click(function() {
+            //     $(".main-wrap").slideToggle("fast");
+            // });
         </script>
     </body>
 </html>

@@ -17,7 +17,7 @@
         <?php include 'includes/site-header.php'; ?>
         <!-- header end -->
 
-        <section class="section p-5 first-content">
+        <section class="section p-1 p-md-5 first-content">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -353,7 +353,28 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> <!-- ./ row -->
+
+						<!-- BOS Row -->
+						<div class="row">
+							<div class="col">
+								<div class="p-3 border bg-green d-content-right white-banner">
+									<img class="w-50" src="/image/bos.png">
+									<h1 class="title1 text-white">WE OFFER<br> BUILD-ON-SITE</h1>
+									<div class="d-flex flex-row flex-nowrap align-items-start justify-content-start">
+										<div>
+											<p class="text-white">
+												Our "BUILD-ON-SITE" option is a perfect solution when delivering one of our pre-built barns is not possible. Contact
+												your nearest dealer for more information and current pricing.
+											</p>
+											<p class="text-white fst-italic fw-light mt-2">
+												*We cannot paint, stain or seal Build-On-Site barns.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
                     </div>
                 </div>
             </div>
@@ -362,10 +383,10 @@
         <?php include 'includes/footer.php'; ?>
 
         <script>
-            $(".main-wrap").hide();
-            $(".vegamenu-title").click(function() {
-                $(".main-wrap").slideToggle("fast");
-            });
+            // $(".main-wrap").hide();
+            // $(".vegamenu-title").click(function() {
+            //     $(".main-wrap").slideToggle("fast");
+            // });
         </script>
     </body>
 </html>

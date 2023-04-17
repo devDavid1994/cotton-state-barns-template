@@ -1,11 +1,12 @@
 $('document').ready(function(){
 
 	//Setup listener on view button
-	$('.brochure-action').on('click', sendMessage);
+	$('.brochure-action').on('click', sendBrochureMessage);
+	$('#dealerInfoBtn').on('click', sendDealerMessage);
 
 });
 
-function sendMessage()
+function sendBrochureMessage()
 {
 	//Ensure we have a name and email address filled out
 	if(!$("#name").val()) { alert('Please enter your full name.'); return; }
@@ -13,8 +14,8 @@ function sendMessage()
 	if(!$("#dealer_id").val()) { alert('Please select a dealership from the top of the page.'); return; }
 
 	//Setup the URL to the email endpoint
-	var url = 'https://test.systemavo.com/EmailApi/send'
-	 //var url = 'https://avo.test/EmailApi/send';
+	var url = 'https://test.systemavo.com/EmailApi/sendBrochure'
+	 //var url = 'https://avo.test/EmailApi/sendBrochure';
 
 	//Get the element that was clicked
 	var curElm = $(this);
@@ -45,7 +46,27 @@ function sendMessage()
 			{
 				window.open("/downloads/price_sheet_" + response.dealer_state.toUpperCase() + ".pdf", "_blank");
 			}
+		},
+		error: function() {
 
+		}
+	});
+}
+
+function sendDealerMessage()
+{
+	var formData = $('#dealer-form').serialize();
+
+	var url = 'https://test.systemavo.com/EmailApi/sendDealer'
+	//var url = 'https://avo.test/EmailApi/sendDealer';
+
+	$.ajax({
+		type: "POST",
+		url: url,
+		data: formData ,
+		success: function () {
+			alert('Your message has been successfully sent.');
+			$('input').val('');
 		},
 		error: function() {
 

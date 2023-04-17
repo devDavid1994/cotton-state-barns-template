@@ -96,7 +96,7 @@
                                     <div class="f-link">
                                         <h2 class="h-footer">STYLES</h2>
                                         <a href="#services" data-bs-toggle="collapse" class="h-footer">
-                                            <span>Privacy &amp; terms</span>
+                                            <span>STYLES</span>
                                             <i class="fa fa-angle-down"></i>
                                         </a>
                                         <ul class="f-link-ul collapse" id="services" data-bs-parent="#footer-accordian">
@@ -112,24 +112,24 @@
                                             <li class="f-link-ul-li"><a href="shed-budget.php">Budget Series</a></li>
                                         </ul>
                                     </div>
-                                    <div class="f-link">
+                                    <div class="f-link styles-col-2">
                                         <h2 class="h-footer">&nbsp;</h2>
                                         <ul class="f-link-ul collapse" id="services" data-bs-parent="#footer-accordian">
                                             <li class="f-link-ul-li"><a href="shed-deluxe-lofted-barn-cabin.php">Lofted Deluxe Cabin</a></li>
                                             <li class="f-link-ul-li"><a href="shed-pioneer-cabins.php">Pioneer Cabin</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-lofted-pioneer-cabins.php">LoftedPioneer Cabin</a></li>
+                                            <li class="f-link-ul-li"><a href="shed-lofted-pioneer-cabins.php">Lofted Pioneer Cabin</a></li>
                                             <li class="f-link-ul-li"><a href="shed-garages.php">Garage</a></li>
                                             <li class="f-link-ul-li"><a href="shed-lofted-barn-garages.php">Lofted Garage</a></li>
                                             <li class="f-link-ul-li"><a href="shed-tool.php">Tool</a></li>
                                             <li class="f-link-ul-li"><a href="shed-sun-studios.php">Sun Studios</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-cabanas.php">Canbanas</a></li>
-                                            <li class="f-link-ul-li"><a href="shed-livestock-shelters.php">Livestock</a></li>
+                                            <li class="f-link-ul-li"><a href="shed-cabanas.php">Cabanas</a></li>
+                                            <li class="f-link-ul-li livestock-footer-menu"><a href="shed-livestock-shelters.php">Livestock</a></li>
                                         </ul>
                                     </div>
-                                    <div class="f-link">
+                                    <div class="f-link customization">
                                         <h2 class="h-footer">CUSTOMIZATION</h2>
                                         <a href="#privacy" data-bs-toggle="collapse" class="h-footer">
-                                            <span>My account</span>
+                                            <span>CUSTOMIZATION</span>
                                             <i class="fa fa-angle-down"></i>
                                         </a>
                                         <ul class="f-link-ul collapse" id="privacy" data-bs-parent="#footer-accordian">
@@ -140,7 +140,7 @@
                                     <div class="f-link">
                                         <h2 class="h-footer">MORE DETAILS</h2>
                                         <a href="#account" data-bs-toggle="collapse" class="h-footer">
-                                            <span>Menu title</span>
+                                            <span>MORE DETAILS</span>
                                             <i class="fa fa-angle-down"></i>
                                         </a>
                                         <ul class="f-link-ul collapse" id="account" data-bs-parent="#footer-accordian">

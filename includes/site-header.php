@@ -71,7 +71,7 @@
                                     <span class="line"></span>
                                     </button>
                                 </li>
-                                <li class="side-wrap search-wrap">
+                                <li class="side-wrap search-wrap d-none">
                                     <!-- mobile search start -->
                                     <div class="search-rap">
                                         <a href="#search-modal" class="search-popuup" data-bs-toggle="modal"><i class="ion-ios-search-strong"></i></a>
@@ -86,10 +86,10 @@
 												<span class="wishlist-icon">Your Dealer:</span>
 												<span>
 													<b style="color: #295129;" id="dealer_name">
-														<?= !$_SESSION['dealer_info'] ? 'No dealer found.' :  $_SESSION['dealer_info']->name ?>
+														<?= !$_SESSION['dealer_info'] ? 'No dealer found.' :  $_SESSION['dealer_info']->display_name ?>
 													</b>
 												</span>
-												<div id="dealer_info" class="addressphonehours <?= !$_SESSION['dealer_info'] ? 'hide' : null ?>">
+												<div id="dealer_info" class="addressphonehours <?= !$_SESSION['dealer_info'] ? 'd-none' : null ?>">
 													<p id="dealer_addr">
 														<?= $_SESSION['dealer_info']->address.', '. $_SESSION['dealer_info']->city.' '. $_SESSION['dealer_info']->state.' '.$_SESSION['dealer_info']->zip ?>
 													</p>
@@ -114,13 +114,18 @@
                         <div class="top-menu">
                             <!-- vega menu start -->
                             <div class="vegamenu-content">
-                                <a href="#vega-menu" data-bs-toggle="collapse" class="vegamenu-title">
+                                <a href="#vega-menu" data-bs-toggle="collapse" class="vegamenu-title vegamenu-desktop">
                                     <span class="menu-icon"><i class="ion-navicon"></i></span>
-                                    <span class="menu-cat-title">STYLES</span>
+                                    <span class="menu-cat-title">MODELS</span>
                                     <span class="menu-down-icon"><i class="ion-ios-arrow-down"></i></span>
                                 </a>
+								<a href="/#our-barns" class="vegamenu-title vegamenu-mobile">
+									<span class="menu-icon"><i class="ion-navicon"></i></span>
+									<span class="menu-cat-title">MODELS</span>
+									<span class="menu-down-icon"><i class="ion-ios-arrow-down"></i></span>
+								</a>
                                 <div class="vegamenu-head">
-                                    <div class="main-wrap collapse" id="vega-menu">
+                                    <div class="main-wrap collapse <?= $_SERVER["SCRIPT_NAME"] === '/index.php' ? 'show' : null ?>" id="vega-menu">
                                         <ul class="vega-menu">
                                             <li class="menu-link dropend" onClick="$(this).toggleClass('active');">
                                                 <a href="javascript:void(0)" class="link-title dropdown-toggle">

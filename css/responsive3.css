@@ -436,6 +436,10 @@ idap-pro css
         padding-right: 0px;
         margin-right: 0px;
     }
+
+    .vegamenu-content a.vegamenu-mobile { display:block; }
+    .vegamenu-content a.vegamenu-desktop { display:none; }
+
     .vegamenu-content a.vegamenu-title{
         padding: 10px 15px;
     }
@@ -456,6 +460,7 @@ idap-pro css
         position: absolute;
         z-index: 21;
         width: 100%;
+        display:none;
     }
     .vegamenu-content .vegamenu-head .main-wrap.collapse:not(.show){
         display: none;
@@ -1274,6 +1279,16 @@ iphone css
     .footer-link .f-link ul.f-link-ul li.f-link-ul-li:first-child{
         margin-top: 13px;
     }
+
+    .footer-link .f-link.customization {
+        margin-top:0;
+    }
+
+    .footer-link .f-link ul.f-link-ul li.f-link-ul-li.livestock-footer-menu {
+        margin-bottom:10px;
+    }
+
+
     /* newslatter popup css */
     .vegist-popup .modal-dialog{
         padding: 15px;

@@ -30,14 +30,14 @@ function changeLocation()
 			console.log(res);
 
 			if (status == 'success' && res.success) {
-				$('#dealer_info').removeClass('hide');
-				$('#dealer_name').text(res.data[0].name + ', ' + res.data[0].state);
+				$('#dealer_info').removeClass('d-none');
+				$('#dealer_name').text(res.data[0].display_name + ', ' + res.data[0].state);
 				$('#dealer_addr').text(res.data[0].address + ' ' + res.data[0].city  + ' ' + res.data[0].state);
 				$('#dealer_phone').text(res.data[0].phone);
-				$('#dealer_id').val(data[0].id);
+				$('#dealer_id').val(res.data[0].id);
 			} else {
 				$('#dealer_name').text('No dealer found.');
-				$('#dealer_info').removeClass('hide');
+				$('#dealer_info').addClass('d-none');
 			}
 
 			$('#changelocalModal').modal('hide');
@@ -84,14 +84,14 @@ function getClosestDealer(position) {
 			success: function (res, status) {
 
 				if (status === 'success' && res.success) {
-					$('#dealer_info').css('display', 'block');
-					$('#dealer_name').text(res.data.name + ', ' + res.data.state);
+					$('#dealer_info').removeClass('d-none');
+					$('#dealer_name').text(res.data.display_name + ', ' + res.data.state);
 					$('#dealer_addr').text(res.data.address + ' ' + res.data.city + ' ' + res.data.state);
 					$('#dealer_phone').text(res.data.phone);
 					$('#dealer_id').val(res.data.id);
 				} else {
 					$('#dealer_name').text('No dealer found.');
-					$('#dealer_info').css('display', 'none');
+					$('#dealer_info').addClass('d-none');
 				}
 			},
 			error: function () {

@@ -15,7 +15,7 @@
         <?php include 'includes/site-header.php'; ?>
         <!-- header end -->
 
-        <section class="section p-5 first-content">
+        <section class="section p-1 p-md-5 first-content">
             <div class="container">
                 <div class="row gx-5 gy-5">
                     <div class="col-12 col-md-8">
@@ -23,7 +23,7 @@
                             <img src="image/csb/bd/Grass - Sun Studio.jpg" alt="Avatar" class="image-fluid banner-image2">
                             <div class="title1">
                                 <h1 class="text-green">SUN STUDIOS</h1>
-                                <h3><span>For hobbyists and crafters our new SUN STUDIO comes with many window options that let the sunlight in! Sun Studios come standard with:</span></h3>
+                                <h3><span>For hobbyists and crafters, our new SUN STUDIO comes with many window options that let the sunlight in! Sun Studios come standard with:</span></h3>
                             </div>
 
                             <div class="row gx-5">
@@ -219,7 +219,7 @@
                                                         </div>
                                                         <div class="tab-caption">
                                                             <div class="pro-price">
-                                                            <h3><a href="options.php">6' or 7' Double Tansom Door</a></h3>
+                                                            <h3><a href="options.php">6' or 7' Double Transom Door</a></h3>
                                                                 <span class="new-price"><a href="options.php">View More &rsaquo;</a></span>
                                                             </div>
                                                         </div>
@@ -509,7 +509,7 @@
                                                         </div>
                                                         <div class="tab-caption">
                                                             <div class="pro-price">
-                                                                <h3><a href="options.php">panel Garage Door</a></h3>
+                                                                <h3><a href="options.php">Panel Garage Door</a></h3>
                                                                 <span class="new-price"><a href="options.php">View More &rsaquo;</a></span>
                                                             </div>
                                                         </div>
@@ -535,10 +535,10 @@
         <?php include 'includes/footer.php'; ?>
 
         <script>
-            $(".main-wrap").hide();
-            $(".vegamenu-title").click(function() {
-                $(".main-wrap").slideToggle("fast");
-            });
+            // $(".main-wrap").hide();
+            // $(".vegamenu-title").click(function() {
+            //     $(".main-wrap").slideToggle("fast");
+            // });
         </script>
     </body>
 </html>

@@ -16,7 +16,7 @@
         <?php include 'includes/site-header.php'; ?>
         <!-- header end -->
 
-        <section class="section p-5 first-content">
+        <section class="section p-1 p-md-5 first-content">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -72,14 +72,36 @@
                 </div>
             </div>
         </section>
-        
-        <?php include 'includes/footer.php'; ?>
+
+		<div class="vegist-popup animated modal fadeIn" id="myModal2" role="dialog">
+			<div class="modal-dialog diagram-modal">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="popup-content">
+							<!-- popup close button start -->
+							<a href="javascript:void(0)" data-bs-dismiss="modal" aria-label="Close" class="close-btn"><i class="ion-close-round"></i></a>
+							<!-- popup close button end -->
+							<!-- popup content area start -->
+							<div class="pop-up-newsletter">
+								<div class="logo-content">
+									<img src="image/csb/Deluxe Style Porches.PNG" alt="image" class="img-fluid">
+								</div>
+							</div>
+							<!-- popup content area end -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<?php include 'includes/footer.php'; ?>
 
         <script>
-            $(".main-wrap").hide();
-            $(".vegamenu-title").click(function() {
-                $(".main-wrap").slideToggle("fast");
-            });
+            // $(".main-wrap").hide();
+            // $(".vegamenu-title").click(function() {
+            //     $(".main-wrap").slideToggle("fast");
+            // });
         </script>
     </body>
 </html>

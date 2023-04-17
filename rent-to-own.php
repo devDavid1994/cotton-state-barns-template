@@ -17,7 +17,7 @@
         <?php include 'includes/site-header.php'; ?>
         <!-- header end -->
 
-        <section class="section p-5 first-content">
+        <section class="section p-1 p-md-5 first-content">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -47,7 +47,7 @@
                     <div class="col-12 col-md-8">
                         <div class="p-5 border bg-light d-content">
                             <div class="row gx-5 gy-2">
-                                <div class="col-4 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <svg xmlns="http://www.w3.org/2000/svg">
                                         <image href="image/csb/svg/barn.svg" />
                                     </svg>
@@ -58,7 +58,7 @@
                                         After all the contract obligations are met, the barn is yours to keep.
                                     </p>
                                 </div>
-                                <div class="col-4 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <svg xmlns="http://www.w3.org/2000/svg">
                                         <image href="image/csb/svg/credit-card.svg" />
                                     </svg>
@@ -69,7 +69,7 @@
                                         Low credit score? Not a problem!
                                     </p>
                                 </div>
-                                <div class="col-4 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <svg xmlns="http://www.w3.org/2000/svg">
                                         <image href="image/csb/svg/ban.svg" />
                                     </svg>
@@ -80,7 +80,7 @@
                                         Stop renting at any time without affecting your credit rating.
                                     </p>
                                 </div>
-                                <div class="col-4 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <svg xmlns="http://www.w3.org/2000/svg">
                                         <image href="image/csb/svg/fee.svg" />
                                     </svg>
@@ -91,7 +91,7 @@
                                         Want to pay off your barn early? No problem! We won't charge you any extra fees.
                                     </p>
                                 </div>
-                                <div class="col-4 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <svg xmlns="http://www.w3.org/2000/svg">
                                         <image href="image/csb/svg/coin.svg" />
                                     </svg>
@@ -100,11 +100,11 @@
                                     </p>
                                     <p class="d-description">
                                         Option allows you to waive the security deposit and purchase a barn on our Rent-To-Own 
-                                        contracts without putting any money down. *Not available for all sheds or for all Contracts.
+                                        contracts without putting any money down. *Not available for all sheds or for all contracts.
                                         See dealer for details.
                                     </p>
                                 </div>
-                                <div class="col-4 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <svg xmlns="http://www.w3.org/2000/svg">
                                         <image href="image/csb/svg/salary.svg" />
                                     </svg>
@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                             <div class="row gx-5">
-                                <div class="col">
+                                <div class="col-12 col-md-6">
                                     <p class="d-title align-left">
                                         90 day same as cash:
                                     </p>
@@ -137,7 +137,7 @@
                                         </ul>
                                     </p>
                                 </div>
-                                <div class="col col-md-6">
+                                <div class="col-12 col-md-6">
                                     <p class="d-title align-left">
                                         No money down:
                                     </p>
@@ -165,10 +165,10 @@
         <?php include 'includes/footer.php'; ?>
 
         <script>
-            $(".main-wrap").hide();
+            /*$(".main-wrap").hide();
             $(".vegamenu-title").click(function() {
                 $(".main-wrap").slideToggle("fast");
-            });
+            });*/
         </script>
     </body>
 </html>

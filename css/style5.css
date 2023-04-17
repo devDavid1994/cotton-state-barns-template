@@ -635,11 +635,12 @@ body.hidden {
     z-index: 4;
 }
 .vegamenu-content .vegamenu-head .main-wrap.collapse:not(.show){
-    display: block;
+    /*display: block;*/
 }
 .header-main-area.is-sticky .vegamenu-content .vegamenu-head .main-wrap.collapse:not(.show) {
     display: none;
 }
+
 .vegamenu-content .vegamenu-head .main-wrap.o-page-menu.collapse:not(.show){
     display: none;
 }
@@ -731,6 +732,9 @@ body.hidden {
     opacity: 1;
     visibility:visible;
 }
+
+.vegamenu-content a.vegamenu-mobile { display:none; }
+.vegamenu-content a.vegamenu-desktop { display:block; }
 
 
 /* main-menu css */

@@ -15,7 +15,7 @@
         <?php include 'includes/site-header.php'; ?>
         <!-- header end -->
 
-        <section class="section p-5 first-content">
+        <section class="section p-1 p-md-5 first-content">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -67,10 +67,10 @@
         <?php include 'includes/footer.php'; ?>
 
         <script>
-            $(".main-wrap").hide();
-            $(".vegamenu-title").click(function() {
-                $(".main-wrap").slideToggle("fast");
-            });
+            // $(".main-wrap").hide();
+            // $(".vegamenu-title").click(function() {
+            //     $(".main-wrap").slideToggle("fast");
+            // });
         </script>
     </body>
 </html>

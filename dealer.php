@@ -16,7 +16,7 @@
         <?php include 'includes/site-header.php'; ?>
         <!-- header end -->
 
-        <section class="section p-5 first-content">
+        <section class="section p-1 p-md-5 first-content">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -35,7 +35,7 @@
                     <div class="col-12 col-md-8">
                         <div class="p-5 border bg-light d-content">
                             <div class="title1">
-                                <h1>Are you interested in becoming an authorized&nbsp;<span class="text-green">Cotton State Barns&nbsp;</span>dealer</h1>
+                                <h1>Are you interested in becoming an authorized&nbsp;<span class="text-green">Cotton State Barns&nbsp;</span>dealer?</h1>
                             </div>
 
                             <div class="row gx-5">
@@ -44,7 +44,7 @@
                                 </div>
                             </div>
                             
-                            <form class="inquiry-form">
+                            <form id="dealer-form" class="inquiry-form">
                                 <div class="row gx-1">
                                     <div class="col">
                                         <input type="text" name="firstName" placeholder="First Name">
@@ -89,7 +89,7 @@
                                 </div>
                                 <div class="row gx-1">
                                     <div class="col">
-                                        <input type="submit" name="submit" class="btn btn-style3" value="SUBMIT" />
+										<button id="dealerInfoBtn" type="button" class="btn btn-style3">Submit</button>
                                     </div>
                                 </div>
                             </form>
@@ -107,10 +107,10 @@
         <?php include 'includes/footer.php'; ?>
 
         <script>
-            $(".main-wrap").hide();
-            $(".vegamenu-title").click(function() {
-                $(".main-wrap").slideToggle("fast");
-            });
+            // $(".main-wrap").hide();
+            // $(".vegamenu-title").click(function() {
+            //     $(".main-wrap").slideToggle("fast");
+            // });
         </script>
     </body>
 </html>
